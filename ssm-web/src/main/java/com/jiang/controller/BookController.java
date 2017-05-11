@@ -46,7 +46,7 @@ public class BookController {
 		mv.addObject("pageInfo", pageInfo);
 		mv.addObject("bookList", list);
 		
-		System.out.println(gson.toJson(list));
+		System.out.println(gson.toJson(pageInfo));
 		mv.setViewName("/WEB-INF/pages/bookList.jsp");
 
 		return mv;
