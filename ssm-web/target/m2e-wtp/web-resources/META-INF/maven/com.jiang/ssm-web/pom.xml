@@ -15,6 +15,7 @@
 	<name>ssm-web Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
+
 		<dependency>
 			<groupId>com.jiang</groupId>
 			<artifactId>ssm-model</artifactId>
