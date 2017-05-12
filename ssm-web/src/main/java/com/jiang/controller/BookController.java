@@ -26,18 +26,21 @@ public class BookController {
 	@Autowired
 	private BookService bookService;
 	/**
-	 * ·ÖÒ³²éÑ¯ËùÓĞÍ¼Êé£¬Ê¹ÓÃpageHelper²å¼şÍê³É
+	 * ï¿½ï¿½Ò³ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½Í¼ï¿½é£¬Ê¹ï¿½ï¿½pageHelperï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @return
 	 */
 	@RequestMapping("/bookList")
 	public ModelAndView bookList(ModelAndView mv,
 			@RequestParam(required=true,defaultValue="1") Integer page,
-			@RequestParam(required=true,defaultValue="5") Integer pageSize){
+			@RequestParam(required=true,defaultValue="10") Integer pageSize){
 		
 		Gson gson = new Gson();
-		//±íÊ¾Òª¿ªÊ¼·ÖÒ³ÁË
-		//page£º´ÓpageÒ³¿ªÊ¼
-		//pageSize£ºÃ¿Ò³ÏÔÊ¾pageSizeÌõ¼ÇÂ¼
+		//è¡¨ç¤ºå¼€å§‹åˆ†é¡µ
+		//page:ç¬¬å‡ é¡µ
+		//pageSize:æ¯é¡µæ˜¾ç¤ºå¤šå°‘
+//		if(page==0){
+//			page = 1;
+//		}
 		PageHelper.startPage(page, pageSize);
 		mv = new ModelAndView();
 		List<Book> list = bookService.findAllBook();
