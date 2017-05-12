@@ -55,9 +55,30 @@
 		<!-- 此处可以可以配置成*.do，对应struts的后缀习惯 -->
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-	<!-- 默认进入首页 -->
+    <!-- 解决加载静态资源问题 -->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.css</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.js</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.jpg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.svg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.otf</url-pattern>
+    </servlet-mapping>
+    <!-- 默认进入首页 -->
 	<welcome-file-list>
-		<welcome-file>/WEB-INF/pages/login.jsp</welcome-file>
+        <welcome-file>book/bookList</welcome-file>
 	</welcome-file-list>
 	
 		<!-- 日志记录 -->

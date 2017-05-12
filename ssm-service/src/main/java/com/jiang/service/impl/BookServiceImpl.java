@@ -15,10 +15,14 @@ public class BookServiceImpl implements BookService {
 	
 	@Autowired
 	private BookMapper bookMapper;
-	
-	@Override
-	public List<Book> findAllBook() {
-		return bookMapper.findAllBook();
-	}
 
+    @Override
+    public List<Book> findAllBook() {
+        return bookMapper.findAllBook();
+    }
+
+    @Override
+    public int delBook(int id) {
+        return bookMapper.deleteByPrimaryKey(id);
+    }
 }

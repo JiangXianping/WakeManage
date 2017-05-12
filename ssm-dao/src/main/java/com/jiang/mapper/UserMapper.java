@@ -1,6 +1,5 @@
 package com.jiang.mapper;
 
-import org.apache.ibatis.annotations.Select;
 
 import com.jiang.model.User;
 

@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ssm-web:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="ssm-web:war exploded">
     <output-path>$PROJECT_DIR$/ssm-web/target/ssm-web</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
@@ -49,6 +49,8 @@
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.4" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.1.6" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
         </element>
       </element>
       <element id="directory" name="META-INF">

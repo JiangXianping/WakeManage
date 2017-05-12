@@ -176,7 +176,17 @@
 		</dependency>
 	</dependencies>
   <build>
-    <finalName>ssm-master</finalName>
+      <!-- 不配置此项，扫描不到mapper.xml文件，Maven build字节码时把资源文件也一起生成. -->
+      <resources>
+          <resource>
+              <directory>src/main/java</directory>
+              <includes>
+                  <include>**/*.properties</include>
+                  <include>**/*.xml</include>
+              </includes>
+              <filtering>false</filtering>
+          </resource>
+      </resources>
   </build>
   
   <modules>

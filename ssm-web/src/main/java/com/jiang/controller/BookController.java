@@ -2,18 +2,20 @@ package com.jiang.controller;
 
 import java.util.List;
 
+import javafx.print.Printer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.google.gson.Gson;
-import com.jiang.mapper.BookMapper;
 import com.jiang.model.Book;
 import com.jiang.service.BookService;
+
+import javax.servlet.http.HttpServletResponse;
+
 /**
  * 
  * @author jiang
@@ -25,6 +27,16 @@ public class BookController {
 	
 	@Autowired
 	private BookService bookService;
+
+    @RequestMapping("/del/{id}")
+    public String del(@PathVariable("id") int id, HttpServletResponse response) {
+        int num = bookService.delBook(id);
+        if (num == 1) {
+            return "redirect:/book/bookList";
+        }
+        return "redirect:/book/bookList";
+    }
+
 	/**
 	 * 使用PageHelper实现分页功能
 	 * @return
