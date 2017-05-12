@@ -2,15 +2,24 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
+			+ path + "/";
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<base href="<%=basePath%>resources/">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF">
-<title>Insert title here</title>
+<title>图书列表</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="usercss/bookList.css">
 </head>
 <body>
+<div id="body">
 	<form action="">
-		<table width="90%" style="margin: 0px auto; " >
+		<table class="table" width="100%" >
 			<thead>
 				<tr>
 					<td colspan="6" align="center" style="font-size: 20px;">图书管理系统</td>
@@ -40,32 +49,27 @@
 					</tr>
 				</c:forEach>
 			</tbody>
-			
-			<tfoot>
-			<tr>
-			<td colspan="6" align="center">
-				<a href="bookList?page=${pageInfo.firstPage }&rows=${pageInfo.pageSize}">
+		</table>
+	</form>
+	</div>
+	<div id="foot">
+				<a href="<%=basePath%>book/bookList?page=${pageInfo.firstPage }&rows=${pageInfo.pageSize}">
 					<input type=button class="btn btn-info btn-xs" value="首页"/>
 				</a> 
-				<a href="bookList?<c:if test="${pageInfo.prePage =='0'}">page=1</c:if>
+				<a href="<%=basePath%>book/bookList?<c:if test="${pageInfo.prePage =='0'}">page=1</c:if>
 									<c:if test="${pageInfo.prePage !='0'}">page=${pageInfo.prePage}</c:if>
 									&rows=${pageInfo.pageSize}">
 					<input type=button class="btn btn-info btn-xs" value="前一页"/>
 				</a> 
-				<a href="bookList?
+				<a href="<%=basePath%>book/bookList?
 					<c:if test="${pageInfo.isLastPage  == 'true'}">page=${pageInfo.lastPage }</c:if>
 					<c:if test="${pageInfo.isLastPage  == 'false'}">page=${pageInfo.nextPage }</c:if>
-					
 					&rows=${pageInfo.pageSize}">
 					<input type=button class="btn btn-info btn-xs" value="下一页"/>
 				</a> 
-				<a href="bookList?page=${pageInfo.lastPage }&rows=${pageInfo.pageSize}">
+				<a href="<%=basePath%>book/bookList?page=${pageInfo.lastPage }&rows=${pageInfo.pageSize}">
 					<input type=button class="btn btn-info btn-xs" value="尾页"/>
 				</a> 
-			</td>
-			</tr>
-			</tfoot>
-		</table>
-	</form>
+	</div>
 </body>
 </html>

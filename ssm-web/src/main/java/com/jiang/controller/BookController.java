@@ -26,7 +26,7 @@ public class BookController {
 	@Autowired
 	private BookService bookService;
 	/**
-	 * ��ҳ��ѯ����ͼ�飬ʹ��pageHelper������
+	 * 使用PageHelper实现分页功能
 	 * @return
 	 */
 	@RequestMapping("/bookList")
@@ -38,9 +38,7 @@ public class BookController {
 		//表示开始分页
 		//page:第几页
 		//pageSize:每页显示多少
-//		if(page==0){
-//			page = 1;
-//		}
+
 		PageHelper.startPage(page, pageSize);
 		mv = new ModelAndView();
 		List<Book> list = bookService.findAllBook();
