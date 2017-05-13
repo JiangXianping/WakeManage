@@ -25,4 +25,14 @@ public class BookServiceImpl implements BookService {
     public int delBook(int id) {
         return bookMapper.deleteByPrimaryKey(id);
     }
+
+    @Override
+    public Book findBookById(int id) {
+        return bookMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public int modify(Book book) {
+        return bookMapper.updateByPrimaryKey(book);
+    }
 }

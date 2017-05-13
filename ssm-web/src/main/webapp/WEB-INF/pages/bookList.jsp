@@ -89,6 +89,9 @@
             window.location = "<%=basePath%>book/del/" + id;
         }
     }
+    function update(id) {
+        window.location = "<%=basePath%>book/findBookById/" + id;
+    }
 </script>
 </body>
 </html>
