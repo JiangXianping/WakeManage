@@ -1,8 +1,8 @@
 package com.jiang.model;
 
-import java.util.Date;
-
 import org.springframework.format.annotation.DateTimeFormat;
+
+import java.util.Date;
 
 public class Book {
     private Integer id;
@@ -15,7 +15,6 @@ public class Book {
 
     private Date bookPublicationDate;
 
-    @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date bookUpdatetime;
 
     private Integer bookIslend;

@@ -48,7 +48,7 @@
 </head>
 <body>
 <div id="body"></div>
-<form id="updateBook" method="post" role="form">
+<form action="<%=basePath%>book/modify" method="get" role="form">
     <table table table-condensed align="center" width="380px" height="360px">
         <thead>
         <tr>
@@ -66,19 +66,28 @@
                        placeholder="${book.bookName}"/></td>
         </tr>
         <tr>
+            <td>图书作者:</td>
+            <td><input name="bookAuthor" id="bookAuthor" class="form-control" value="${book.bookAuthor}"
+                       placeholder="${book.bookAuthor}"/></td>
+        </tr>
+        <tr>
             <td>出版社:</td>
             <td><input name="bookPublishing" class="form-control" value="${book.bookPublishing}"
                        placeholder="${book.bookPublishing}"/></td>
         </tr>
         <tr>
             <td>出版时间:</td>
-            <td><input name="bookPublicationDate" class="form-control" value="${book.bookPublicationDate}"
-                       placeholder="${book.bookPublicationDate}"/></td>
+            <td><input name="bookPublicationDate" class="form-control" value=
+            <fmt:formatDate value="${book.bookPublicationDate }" pattern="yyyy-MM-dd"/>
+                    placeholder=<fmt:formatDate  value="${book.bookPublicationDate }" pattern="yyyy-MM-dd"/>/>
+            </td>
         </tr>
         <tr>
             <td>更新时间:</td>
-            <td><input name="bookUpdatetime" class="form-control" value="${book.bookUpdatetime}"
-                       placeholder="${book.bookUpdatetime}"/></td>
+            <td><input name="bookUpdatetime" class="form-control"
+                       value="<fmt:formatDate value="${book.bookUpdatetime }" type="both"/>"
+                       placeholder="<fmt:formatDate value="${book.bookUpdatetime }" type="both"/>"/>
+            </td>
         </tr>
         <tr>
             <td>是否可借:</td>
@@ -87,7 +96,7 @@
         </tr>
         <tr>
             <td></td>
-            <td><input type="button" class="btn btn-primary" id="modify" value="修改">&nbsp;&nbsp;
+            <td><input type="submit" class="btn btn-primary" id="modify" value="修改">&nbsp;&nbsp;
                 <input type="button" class="btn btn-primary" id="back" onclick="javascript:window.history.back();"
                        value="返回"/></td>
         </tr>
@@ -96,11 +105,12 @@
 </body>
 <script>
     $(function () {
-        $("#modify").click(function () {
+        /*$("#modify").click(function () {
+         alert($("#bookName").val());
             $.ajax({
                 url: '<%=basePath%>book/modify',
-                type: 'POST',
-                data: $("#updateBook").serialize(), /*序列化表单提交整个表单数据*/
+         type: 'GET',
+         data: $("#updateBook").serialize(), /!*序列化表单提交整个表单数据*!/
                 success: function (data) {
                     alert(data)
                     if (data == 1) {
@@ -111,10 +121,10 @@
                     }
                 },
                 error: function (data) {
-                    alert(data + "操作失败!");
+         alert(data[i] + "操作失败!");
                 }
             });
-        });
+         });*/
     });
 </script>
 </html>

@@ -1,9 +1,13 @@
 package com.jiang.controller;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -29,15 +33,29 @@ public class BookController {
 
     Gson gson = new Gson();
 
+    @InitBinder
+    public void initBinder(WebDataBinder binder) {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        dateFormat.setLenient(false);
+        binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
+    }
+
+    @InitBinder
+    public void initBinder1(WebDataBinder binder) {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        dateFormat.setLenient(false);
+        binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
+    }
+
     @RequestMapping(value = "/modify", method = {RequestMethod.GET, RequestMethod.POST})
-    @ResponseBody
-    public int modify(Book book, HttpServletRequest request, HttpServletResponse response) {
-        System.out.print(book.getBookAuthor());
-//        System.out.print(book.getBookName());
-//        ModelAndView mv = new ModelAndView();
-//        int num = bookService.modify(book);
-//        System.out.print(num);
-        return 1;
+    public ModelAndView modify(Book book) {
+        ModelAndView mv = new ModelAndView();
+        System.out.println(gson.toJson(book));
+        if (book.getId() != null) {
+            bookService.modify(book);
+            mv.setViewName("redirect:/book/bookList");
+        }
+        return mv;
     }
 
 
