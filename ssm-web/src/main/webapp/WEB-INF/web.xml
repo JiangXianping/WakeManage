@@ -10,7 +10,9 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:spring-mybatis.xml</param-value>
 	</context-param> -->
-	<!-- 编码过滤器 -->
+
+
+    <!-- 编码过滤器 -->
 <filter>
 		<filter-name>encodingFilter</filter-name>
 		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -56,26 +58,26 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
     <!-- 解决加载静态资源问题 -->
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.css</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.js</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.jpg</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.svg</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.otf</url-pattern>
-    </servlet-mapping>
+    <!-- <servlet-mapping>
+         <servlet-name>default</servlet-name>
+         <url-pattern>*.css</url-pattern>
+     </servlet-mapping>
+     <servlet-mapping>
+         <servlet-name>default</servlet-name>
+         <url-pattern>*.js</url-pattern>
+     </servlet-mapping>
+     <servlet-mapping>
+         <servlet-name>default</servlet-name>
+         <url-pattern>*.jpg</url-pattern>
+     </servlet-mapping>
+     <servlet-mapping>
+         <servlet-name>default</servlet-name>
+         <url-pattern>*.svg</url-pattern>
+     </servlet-mapping>
+     <servlet-mapping>
+         <servlet-name>default</servlet-name>
+         <url-pattern>*.otf</url-pattern>
+     </servlet-mapping>-->
     <!-- 默认进入首页 -->
 	<welcome-file-list>
         <welcome-file>book/bookList</welcome-file>
@@ -87,4 +89,18 @@
         <param-name>log4jConfigLocation</param-name>
         <param-value>classpath:log4j.properties</param-value>
     </context-param>
+    <!-- 配置 shiro 的 ShiroFilter-->
+    <filter>
+        <filter-name>shiroFilter</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+        <init-param>
+            <!-- 该值缺省为false,表示生命周期由SpringApplicationContext管理,设置为true则表示由ServletContainer管理 -->
+            <param-name>targetFilterLifecycle</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>shiroFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 </web-app>

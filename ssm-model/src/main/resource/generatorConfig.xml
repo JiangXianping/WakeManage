@@ -3,14 +3,15 @@
   PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
   "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
-
+    <!--本地 mysql-****.jar 的绝对路径-->
     <classPathEntry    location="D:\mvnRepository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar"/>
+    <!--使用默认配置-->
     <context id="mysql"    targetRuntime="MyBatis3">
         <commentGenerator>
             <property name="suppressDate" value="true"/>
             <property name="suppressAllComments" value="true"/>
         </commentGenerator>
-
+        <!--连接数据库相关配置-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver" 
         				connectionURL="jdbc:mysql://localhost/bookmanage" 
         				userId="root" 
@@ -19,13 +20,13 @@
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
-	
+        <!-- targetProject 指定生成文件的路径 -->
 		<!-- model实体类 -->
         <javaModelGenerator targetPackage="com.jiang.model" targetProject="ssm-model\src\main\java\">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
-		<!-- mapper  xml 配置文件 -->
+        <!-- mapper.xml 配置文件 -->
         <sqlMapGenerator targetPackage="com.jiang.mapper" targetProject="ssm-model\src\main\java\">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>

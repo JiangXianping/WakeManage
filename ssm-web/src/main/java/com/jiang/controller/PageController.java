@@ -16,4 +16,10 @@ public class PageController {
     public String addBook() {
         return "addBook.jsp";
     }
+
+    //跳转到登录页面
+    @RequestMapping("/login")
+    public String login() {
+        return "login.jsp";
+    }
 }

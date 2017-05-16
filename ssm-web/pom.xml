@@ -31,7 +31,8 @@
 			<artifactId>ssm-service</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-	</dependencies>
+
+    </dependencies>
 	<build>
 		<finalName>ssm-web</finalName>
 		<plugins>
