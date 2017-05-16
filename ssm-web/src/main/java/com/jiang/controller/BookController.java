@@ -1,5 +1,6 @@
 package com.jiang.controller;
 
+import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -33,18 +34,26 @@ public class BookController {
 
     Gson gson = new Gson();
 
-    @InitBinder
+/*    @InitBinder
     public void initBinder(WebDataBinder binder) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         dateFormat.setLenient(false);
         binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
-    }
-
-    @InitBinder
+    }*/
+/*    @InitBinder
     public void initBinder1(WebDataBinder binder) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         dateFormat.setLenient(false);
         binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
+    }*/
+
+    @RequestMapping("/addBook")
+    public String addBook(Book book) {
+        int num = bookService.addBook(book);
+        if (num == 1) {
+            return "redirect:/book/bookList";
+        }
+        return "redirect:/book/bookList";
     }
 
     @RequestMapping(value = "/modify", method = {RequestMethod.GET, RequestMethod.POST})
@@ -57,7 +66,6 @@ public class BookController {
         }
         return mv;
     }
-
 
     /**
      * 删除图书
@@ -85,7 +93,7 @@ public class BookController {
         ModelAndView mv = new ModelAndView();
         Book book = bookService.findBookById(id);
         mv.addObject("book", book);
-        mv.setViewName("/WEB-INF/pages/editBook.jsp");
+        mv.setViewName("editBook.jsp");
 
         return mv;
 
@@ -114,7 +122,7 @@ public class BookController {
         mv.addObject("bookList", list);
 
         System.out.println(gson.toJson(pageInfo));
-        mv.setViewName("/WEB-INF/pages/bookList.jsp");
+        mv.setViewName("bookList.jsp");
 
         return mv;
     }

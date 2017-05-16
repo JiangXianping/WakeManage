@@ -16,4 +16,7 @@ public interface BookService {
 
     //根据编号修改图书
     public int modify(Book book);
+
+    //添加图书信息
+    public int addBook(Book book);
 }

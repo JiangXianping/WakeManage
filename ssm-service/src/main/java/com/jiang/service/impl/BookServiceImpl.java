@@ -35,4 +35,9 @@ public class BookServiceImpl implements BookService {
     public int modify(Book book) {
         return bookMapper.updateByPrimaryKey(book);
     }
+
+    @Override
+    public int addBook(Book book) {
+        return bookMapper.insert(book);
+    }
 }

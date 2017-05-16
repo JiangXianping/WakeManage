@@ -48,55 +48,40 @@
 </head>
 <body>
 <div id="body"></div>
-<form action="<%=basePath%>book/modify" method="get" role="form">
+<form action="<%=basePath%>book/addBook" method="get" role="form">
     <table table table-condensed align="center" width="380px" height="360px">
         <thead>
         <tr>
-            <td colspan="2" align="center"><h3>修改图书信息</h3></td>
+            <td colspan="2" align="center"><h3>添加图书信息</h3></td>
         </tr>
 
         </thead>
-        <tr>
-            <td>图书编号</td>
-            <td><input name="id" class="form-control" value="${book.id}" placeholder="${book.id}" readonly/></td>
-        </tr>
+
         <tr>
             <td>图书名称:</td>
-            <td><input name="bookName" id="bookName" class="form-control" value="${book.bookName}"
-                       placeholder="${book.bookName}"/></td>
+            <td><input name="bookName" id="bookName" class="form-control"/></td>
         </tr>
         <tr>
             <td>图书作者:</td>
-            <td><input name="bookAuthor" id="bookAuthor" class="form-control" value="${book.bookAuthor}"
-                       placeholder="${book.bookAuthor}"/></td>
+            <td><input name="bookAuthor" id="bookAuthor" class="form-control"/></td>
         </tr>
         <tr>
             <td>出版社:</td>
-            <td><input name="bookPublishing" class="form-control" value="${book.bookPublishing}"
-                       placeholder="${book.bookPublishing}"/></td>
+            <td><input name="bookPublishing" class="form-control"/></td>
         </tr>
         <tr>
             <td>出版时间:</td>
-            <td><input name="bookPublicationDate" class="form-control" value=
-            <fmt:formatDate value="${book.bookPublicationDate }" pattern="yyyy-MM-dd"/>
-                    placeholder=<fmt:formatDate  value="${book.bookPublicationDate }" pattern="yyyy-MM-dd"/>/>
+            <td><input name="bookPublicationDate" class="form-control"/>
             </td>
         </tr>
         <tr>
             <td>更新时间:</td>
-            <td><input name="bookUpdatetime" class="form-control"
-                       value="<fmt:formatDate value="${book.bookUpdatetime }" pattern="yyyy-MM-dd HH:mm:ss"/>"
-                       placeholder="<fmt:formatDate value="${book.bookUpdatetime }" pattern="yyyy-MM-dd HH:mm:ss"/>"/>
+            <td><input name="bookUpdatetime" class="form-control" placeholder="yyyy-MM-dd HH:mm:ss"/>
             </td>
         </tr>
         <tr>
-            <td>是否可借:</td>
-            <td><input name="bookIslend" class="form-control" value="${book.bookIslend}"
-                       placeholder="${book.bookIslend}"/></td>
-        </tr>
-        <tr>
             <td></td>
-            <td><input type="submit" class="btn btn-primary" id="modify" value="修改">&nbsp;&nbsp;
+            <td><input type="submit" class="btn btn-primary" id="modify" value="添加">&nbsp;&nbsp;
                 <input type="button" class="btn btn-primary" id="back" onclick="javascript:window.history.back();"
                        value="返回"/></td>
         </tr>
@@ -107,23 +92,24 @@
     $(function () {
         /*$("#modify").click(function () {
          alert($("#bookName").val());
-            $.ajax({
-                url: '<%=basePath%>book/modify',
+         $.ajax({
+         url: '
+        <%=basePath%>book/modify',
          type: 'GET',
          data: $("#updateBook").serialize(), /!*序列化表单提交整个表单数据*!/
-                success: function (data) {
-                    alert(data)
-                    if (data == 1) {
-                        alert("修改成功!");
-                        window.location.href = "book/bookList";
-                    } else {
-                        alert("修改失败!");
-                    }
-                },
-                error: function (data) {
+         success: function (data) {
+         alert(data)
+         if (data == 1) {
+         alert("修改成功!");
+         window.location.href = "book/bookList";
+         } else {
+         alert("修改失败!");
+         }
+         },
+         error: function (data) {
          alert(data[i] + "操作失败!");
-                }
-            });
+         }
+         });
          });*/
     });
 </script>

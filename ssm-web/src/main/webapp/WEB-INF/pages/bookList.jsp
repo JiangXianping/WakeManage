@@ -63,6 +63,11 @@
         </table>
     </form>
 </div>
+<div id="add" style="margin-left: 5%;padding-top: 2%;">
+    <a href="<%=basePath%>page/addBook">
+        <input type=button class="btn btn-info btn-xs" value="添加图书"/>
+    </a>
+</div>
 <div id="foot">
     <a href="<%=basePath%>book/bookList?page=${pageInfo.firstPage }&rows=${pageInfo.pageSize}">
         <input type=button class="btn btn-info btn-xs" value="首页"/>

@@ -5,6 +5,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;
 
 public class Book {
+
     private Integer id;
 
     private String bookName;
@@ -13,8 +14,10 @@ public class Book {
 
     private String bookPublishing;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date bookPublicationDate;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date bookUpdatetime;
 
     private Integer bookIslend;
