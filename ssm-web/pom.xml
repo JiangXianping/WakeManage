@@ -31,6 +31,16 @@
 			<artifactId>ssm-service</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+        <dependency>
+            <groupId>com.jiang</groupId>
+            <artifactId>ssm-util</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jiang</groupId>
+            <artifactId>util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 	<build>

@@ -9,6 +9,7 @@
         <module name="ssm-dao" />
         <module name="ssm-model" />
         <module name="ssm-service" />
+        <module name="ssm-util" />
         <module name="ssm-web" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="ssm-master" target="1.8" />
       <module name="ssm-model" target="1.8" />
       <module name="ssm-service" target="1.8" />
+      <module name="ssm-util" target="1.8" />
       <module name="ssm-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>

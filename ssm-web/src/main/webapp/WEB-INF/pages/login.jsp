@@ -12,7 +12,7 @@
 <title>用户登录</title>
 </head>
 <body>
-<form action="<%=basePath%>/user/login">
+<form action="<%=basePath%>user/login">
 		<input name="username" value=""/>
 		<input name="password" value="">
 		<input type="submit" value="登录">

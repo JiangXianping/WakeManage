@@ -243,5 +243,6 @@
         <module>ssm-model</module>
         <module>ssm-dao</module>
         <module>ssm-service</module>
+        <module>ssm-util</module>
     </modules>
 </project>

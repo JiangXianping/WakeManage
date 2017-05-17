@@ -27,4 +27,18 @@
 
 
 
+整合shiro流程：
+1.获取当前的Subject. 调用SecurityUtils.getSubject();
+2.测试当前的用户是否已经被认证，即是否已经登录，调用Subject的isAuthenticated()
+3.若没有被认证，则把用户名和密码封装为UsernamePasswordToken 对象
+    1) 创建一个表单页面
+    2) 把请求提交到SpringMVC 的Controller
+    3) 获取用户名和密码
+4.执行登录：调用 Subject 的login(AuthenticationToken)方法
+5.自定义realm的方法，从数据库中获取对应的记录，返回给Shiro
+    1).实际上需要继承org.apache.shiro.realm.AuthenticationRealm方法
+    2).实现doGetAuthenticationInfo(AuthenticationToken) 方法.
+6.由shiro完成对密码的比对.
+
+
 _待续......_

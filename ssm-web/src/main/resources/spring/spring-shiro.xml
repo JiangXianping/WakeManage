@@ -13,7 +13,13 @@
         http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd  
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
     <!-- 自定义Realm -->
-    <bean id="myRealm" class="com.jiang.shiro.ShiroRealm"/>
+    <bean id="myRealm" class="com.jiang.shiro.ShiroRealm">
+        <property name="credentialsMatcher">
+            <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+                <property name="hashAlgorithmName" value="MD5"></property>
+            </bean>
+        </property>
+    </bean>
 
     <!-- 安全管理器 -->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
@@ -30,16 +36,20 @@
         <!-- 认证成功 -->
         <!-- 权限认证失败，则跳转到指定页面 -->
         <property name="unauthorizedUrl" value="/index.jsp"/>
+
         <!-- Shiro连接约束配置,即过滤链的定义 -->
         <property name="filterChainDefinitions">
             <!--user表示访问该地址的用户是身份验证通过或RememberMe登录的都可以。
                 authc：必须认证（即登录）后才可以访问的页面
                 anon:可以被匿名访问
+                第一次优先匹配，可以认为按顺序匹配
             -->
             <value>
-                /login.jsp=anon
+                /login.jsp = anon
+                /page/login = anon
+                /user/login = anon
                 /**=authc
-                <!--	        	/page/login=anon
+                <!--	        /page/login=anon
                                 /page/register=anon
                                 /user/register.do=anon
                                 /user/login.do=anon
