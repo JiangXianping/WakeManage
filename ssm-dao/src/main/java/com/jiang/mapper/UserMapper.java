@@ -1,19 +1,26 @@
 package com.jiang.mapper;
 
-
 import com.jiang.model.User;
+import tk.mybatis.mapper.common.Mapper;
 
-public interface UserMapper {
-    int deleteByPrimaryKey(String username);
+import java.util.List;
+import java.util.Set;
 
-    int insert(User record);
+public interface UserMapper extends Mapper<User> {
+//    int deleteByPrimaryKey(String username);
+//
+//    int insert(User record);
+//
+//    int insertSelective(User record);
+//
+//
+//    int updateByPrimaryKeySelective(User record);
+//
+//    int updateByPrimaryKey(User record);
 
-    int insertSelective(User record);
+    //获取用户权限
+    Set<String> getPermissions(String username);
 
-    User selectByPrimaryKey(String username);
-
-    int updateByPrimaryKeySelective(User record);
-
-    int updateByPrimaryKey(User record);
-
+    //获取用户角色
+    Set<String> getRole(String username);
 }

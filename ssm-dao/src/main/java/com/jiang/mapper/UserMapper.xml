@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jiang.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.jiang.model.User">
+        <id column="username" property="username" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="role_id" property="roleId" jdbcType="INTEGER"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    username, password, role_id
+  </sql>
+    <!--    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String">
+            select
+            <include refid="Base_Column_List"/>
+            from user
+            where username = #{username,jdbcType=VARCHAR}
+        </select>
+        <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+        delete from user
+        where username = #{username,jdbcType=VARCHAR}
+      </delete>
+        <insert id="insert" parameterType="com.jiang.model.User">
+        insert into user (username, password, role_id
+          )
+        values (#{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{roleId,jdbcType=INTEGER}
+          )
+      </insert>
+        <insert id="insertSelective" parameterType="com.jiang.model.User">
+            insert into user
+            <trim prefix="(" suffix=")" suffixOverrides=",">
+                <if test="username != null">
+                    username,
+                </if>
+                <if test="password != null">
+                    password,
+                </if>
+                <if test="roleId != null">
+                    role_id,
+                </if>
+            </trim>
+            <trim prefix="values (" suffix=")" suffixOverrides=",">
+                <if test="username != null">
+                    #{username,jdbcType=VARCHAR},
+                </if>
+                <if test="password != null">
+                    #{password,jdbcType=VARCHAR},
+                </if>
+                <if test="roleId != null">
+                    #{roleId,jdbcType=INTEGER},
+                </if>
+            </trim>
+        </insert>
+        <update id="updateByPrimaryKeySelective" parameterType="com.jiang.model.User">
+            update user
+            <set>
+                <if test="password != null">
+                    password = #{password,jdbcType=VARCHAR},
+                </if>
+                <if test="roleId != null">
+                    role_id = #{roleId,jdbcType=INTEGER},
+                </if>
+            </set>
+            where username = #{username,jdbcType=VARCHAR}
+        </update>
+        <update id="updateByPrimaryKey" parameterType="com.jiang.model.User">
+        update user
+        set password = #{password,jdbcType=VARCHAR},
+          role_id = #{roleId,jdbcType=INTEGER}
+        where username = #{username,jdbcType=VARCHAR}
+      </update>
+        &lt;!&ndash;获取用户角色&ndash;&gt;
+        <select id="getRole" parameterType="String" resultType="String">
+          select r.role_name
+          from `user` u,role r
+          where u.role_id = r.role_id
+          and u.username=#{username,jdbcType=VARCHAR}
+        </select>
+        &lt;!&ndash;获取用户权限&ndash;&gt;
+        <select id="getPermissions" parameterType="String" resultType="String">
+            select p.permission_name
+            from `user` u,permission p
+            where u.role_id = p.role_id
+            and u.username=#{username,jdbcType=VARCHAR}
+
+        </select>-->
+    <!--获取用户角色-->
+    <select id="getRole" parameterType="String" resultType="String">
+        select r.role_name
+        from `user` u,role r
+        where u.role_id = r.role_id
+        and u.username=#{username,jdbcType=VARCHAR}
+    </select>
+    <!--获取用户权限-->
+    <select id="getPermissions" parameterType="String" resultType="String">
+        select p.permission_name
+        from `user` u,permission p
+        where u.role_id = p.role_id
+        and u.username=#{username,jdbcType=VARCHAR}
+
+    </select>
+</mapper>

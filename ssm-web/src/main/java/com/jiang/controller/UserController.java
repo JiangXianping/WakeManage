@@ -3,7 +3,7 @@ package com.jiang.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import com.jiang.util.EncryptionUtil;
+import com.jiang.model.User;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
@@ -13,9 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import com.jiang.model.User;
 import com.jiang.service.UserService;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -35,9 +34,9 @@ public class UserController {
      * @param request
      * @return
      */
-    @RequestMapping("/login")
+    @RequestMapping(value = "/login", method = {RequestMethod.GET, RequestMethod.POST})
     public ModelAndView login(User user, HttpServletRequest request, boolean rememberme) {
-        System.out.print("进入" + user.getUsername() + user.getPassword());
+        System.out.print("进入controller:" + user.getUsername() + "\t" + user.getPassword());
 //        user.setPassword(EncryptionUtil.Md5Str(user.getPassword()));
         Subject subject = SecurityUtils.getSubject();
         logger.info("是否选中记住我:" + rememberme);
@@ -48,12 +47,15 @@ public class UserController {
         ModelAndView m = new ModelAndView();
         try {
             subject.login(token);
-//            HttpSession session = request.getSession();
-//            logger.info("用户对象:"+userService.findByName(user.getUsername()));
-//            session.setMaxInactiveInterval(30*60*1000);
-            m.setViewName("redirect:/index.jsp");
+
+            HttpSession session = request.getSession();
+            logger.info("用户对象:" + userService.findByName(user.getUsername()));
+            session.setAttribute("currUser", userService.findByName(user.getUsername()));
+            session.setMaxInactiveInterval(30 * 60 * 1000);
+            m.setViewName("redirect:/book/bookList");
         } catch (Exception e) {
             e.printStackTrace();
+            m.setViewName("redirect:/page/login");
         }
         return m;
     }
@@ -63,11 +65,12 @@ public class UserController {
      *
      * @return
      */
+    @RequestMapping("/logout")
     public String doLogout(SessionStatus session) {
         session.setComplete();
         Subject subject = SecurityUtils.getSubject();
         subject.logout();
 
-        return "login.jsp";
+        return "redirect:/book/bookList";
     }
 }

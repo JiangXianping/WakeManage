@@ -2,6 +2,7 @@
          pageEncoding="UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
@@ -27,7 +28,11 @@
         <table class="table table-hover table-responsive" width="100%">
             <thead>
             <tr>
-                <td colspan="7" align="center" style="font-size: 22px;">图书管理系统</td>
+                <td colspan="6" align="center" style="font-size: 22px;">图书管理系统</td>
+                <td><shiro:guest>欢迎游客访问</shiro:guest>
+                    <shiro:authenticated>欢迎${sessionScope.currUser.username}<a
+                            href="<%=basePath%>user/logout">退出</a></shiro:authenticated>
+                </td>
             </tr>
             </thead>
             <tbody>

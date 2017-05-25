@@ -13,12 +13,13 @@
         http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd  
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
     <!-- 自定义Realm -->
-    <bean id="myRealm" class="com.jiang.shiro.ShiroRealm">
-        <property name="credentialsMatcher">
-            <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
-                <property name="hashAlgorithmName" value="MD5"></property>
-            </bean>
-        </property>
+    <bean id="myRealm" class="com.jiang.shiro.UserRealm">
+        <!--        <property name="credentialsMatcher">
+                    <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+                        <property name="hashAlgorithmName" value="MD5"></property>
+                        <property name="hashIterations" value="1024"></property>
+                    </bean>
+                </property>-->
     </bean>
 
     <!-- 安全管理器 -->
@@ -32,10 +33,10 @@
         <!-- Shiro的核心安全接口,这个属性是必须的 -->
         <property name="securityManager" ref="securityManager"/>
         <!-- 身份认证失败，则跳转到登录页面的配置 -->
-        <property name="loginUrl" value="/index.jsp"/>
+        <!--<property name="loginUrl" value="/index.jsp"/>-->
         <!-- 认证成功 -->
         <!-- 权限认证失败，则跳转到指定页面 -->
-        <property name="unauthorizedUrl" value="/index.jsp"/>
+        <!--<property name="unauthorizedUrl" value="/index.jsp"/>-->
 
         <!-- Shiro连接约束配置,即过滤链的定义 -->
         <property name="filterChainDefinitions">
@@ -48,7 +49,9 @@
                 /login.jsp = anon
                 /page/login = anon
                 /user/login = anon
+                /book/bookList = anon
                 /**=authc
+
                 <!--	        /page/login=anon
                                 /page/register=anon
                                 /user/register.do=anon
