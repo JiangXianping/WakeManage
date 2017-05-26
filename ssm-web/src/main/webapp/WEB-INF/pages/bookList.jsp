@@ -14,22 +14,29 @@
     <base href="<%=basePath%>webapp/resource/">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF">
     <title>图书列表</title>
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/bootstrap-table.css">
     <link rel="stylesheet" href="<%=basePath%>resource/Font-Awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<%=basePath%>resource/Font-Awesome/font/fontawesome-webfont.svg">
     <link rel="stylesheet" href="<%=basePath%>resource/Font-Awesome/font/FontAwesome.otf">
     <link rel="stylesheet" href="<%=basePath%>resource/usercss/bookList.css">
     <link rel="stylesheet" href="<%=basePath%>resource/userjs/bookList.js">
     <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap.js">
+    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-table.js">
+    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-editable.js">
+    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-table-editable.js">
+    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-table-export.js">
+    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-table-zh-CN.js">
+    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/tableExport.js">
 </head>
 <body>
 <div id="body">
     <form action="">
-        <table class="table table-hover table-responsive" width="100%">
+        <table id="bookTable" class="table table-hover table-responsive" width="100%">
             <thead>
             <tr>
-                <td colspan="6" align="center" style="font-size: 22px;">图书管理系统</td>
-                <td><shiro:guest>欢迎游客访问</shiro:guest>
+                <td colspan="7" align="center" style="font-size: 22px;">图书管理系统</td>
+                <td width="200px"><shiro:guest>欢迎游客访问</shiro:guest>
                     <shiro:authenticated>欢迎&nbsp;&nbsp;${sessionScope.currUser.username}&nbsp;&nbsp;
                         <shiro:hasRole name="superadmin">超级管理员</shiro:hasRole>
                         <shiro:hasRole name="admin">管理员</shiro:hasRole>
@@ -77,6 +84,12 @@
     <a href="<%=basePath%>page/addBook">
         <input type=button class="btn btn-info btn-xs" value="添加图书"/>
     </a>
+    <a href="<%=basePath%>book/exportCurrPage">
+        <input type=button class="btn btn-info btn-xs" value="导出全部信息"/>
+    </a>
+    <a id="download">
+        <input type=button class="btn btn-info btn-xs" value="导出当前页" onclick="a()"/>
+    </a>
 </div>
 <div id="foot">
     <a href="<%=basePath%>book/bookList?page=${pageInfo.firstPage }&rows=${pageInfo.pageSize}">
@@ -107,6 +120,21 @@
     function update(id) {
         window.location = "<%=basePath%>book/findBookById/" + id;
     }
+
+    function a() {
+        // 使用outerHTML属性获取整个table元素的HTML代码（包括<table>标签），然后包装成一个完整的HTML文档，设置charset为urf-8以防止中文乱码
+        var html = "<html><head><meta charset='utf-8' /></head><body>" + document.getElementById("bookTable").outerHTML + "</body></html>";
+        // 实例化一个Blob对象，其构造函数的第一个参数是包含文件内容的数组，第二个参数是包含文件类型属性的对象
+        var blob = new Blob([html], {type: "application/vnd.ms-excel"});
+        var a = document.getElementById("download");
+
+        // 利用URL.createObjectURL()方法为a元素生成blob URL
+        a.href = URL.createObjectURL(blob);
+        // 设置文件名，目前只有Chrome和FireFox支持此属性
+        a.download = "学生成绩表.xls";
+
+    }
+
 </script>
 </body>
 </html>

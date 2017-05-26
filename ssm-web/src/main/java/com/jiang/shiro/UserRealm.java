@@ -53,10 +53,13 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         String username = (String) principals.getPrimaryPrincipal();
-        System.out.println("进入授权" + username);
+
+        logger.info("进入授权" + username);
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
         authorizationInfo.setRoles(userService.getRoles(username));
+
         authorizationInfo.setStringPermissions(userService.getPermissions(username));
+
         return authorizationInfo;
     }
 }

@@ -37,7 +37,7 @@ public class UserController {
     @RequestMapping(value = "/login", method = {RequestMethod.GET, RequestMethod.POST})
 
     public ModelAndView login(User user, HttpServletRequest request, boolean rememberme) {
-        System.out.print("进入controller:" + user.getUsername() + "\t" + user.getPassword());
+        logger.info("进入controller:" + user.getUsername() + "\t" + user.getPassword());
 //        user.setPassword(EncryptionUtil.Md5Str(user.getPassword()));
         Subject subject = SecurityUtils.getSubject();
         logger.info("是否选中记住我:" + rememberme);
@@ -72,6 +72,6 @@ public class UserController {
         Subject subject = SecurityUtils.getSubject();
         subject.logout();
 
-        return "redirect:/book/bookList";
+        return "redirect:/page/login";
     }
 }

@@ -16,8 +16,7 @@
     input {
         opacity: 0.4;
         width: 300px;
-        z-index: 1;
-        background-color: yellow;
+
     }
 
 </style>

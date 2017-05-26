@@ -23,5 +23,4 @@ public class PageController {
         return "login.jsp";
     }
 
-
 }

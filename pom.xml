@@ -229,6 +229,11 @@
             <artifactId>ehcache-core</artifactId>
             <version>2.6.11</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.15</version>
+        </dependency>
     </dependencies>
     <build>
         <!-- 不配置此项，扫描不到mapper.xml文件，Maven build字节码时把资源文件也一起生成. -->
