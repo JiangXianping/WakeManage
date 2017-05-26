@@ -30,8 +30,13 @@
             <tr>
                 <td colspan="6" align="center" style="font-size: 22px;">图书管理系统</td>
                 <td><shiro:guest>欢迎游客访问</shiro:guest>
-                    <shiro:authenticated>欢迎${sessionScope.currUser.username}<a
-                            href="<%=basePath%>user/logout">退出</a></shiro:authenticated>
+                    <shiro:authenticated>欢迎&nbsp;&nbsp;${sessionScope.currUser.username}&nbsp;&nbsp;
+                        <shiro:hasRole name="superadmin">超级管理员</shiro:hasRole>
+                        <shiro:hasRole name="admin">管理员</shiro:hasRole>
+                        <shiro:hasRole name="guest">游客</shiro:hasRole>
+
+                        <a href="<%=basePath%>user/logout">退出</a></shiro:authenticated>
+
                 </td>
             </tr>
             </thead>

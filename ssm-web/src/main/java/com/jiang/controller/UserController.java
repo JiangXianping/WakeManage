@@ -35,6 +35,7 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "/login", method = {RequestMethod.GET, RequestMethod.POST})
+
     public ModelAndView login(User user, HttpServletRequest request, boolean rememberme) {
         System.out.print("进入controller:" + user.getUsername() + "\t" + user.getPassword());
 //        user.setPassword(EncryptionUtil.Md5Str(user.getPassword()));
