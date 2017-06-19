@@ -12,8 +12,8 @@
 <html>
 <head>
     <base href="<%=basePath%>webapp/resource/">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF">
-    <title>图书列表</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title id="title">图书列表</title>
     <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/bootstrap-table.css">
     <link rel="stylesheet" href="<%=basePath%>resource/Font-Awesome/css/font-awesome.min.css">
@@ -41,9 +41,7 @@
                         <shiro:hasRole name="superadmin">超级管理员</shiro:hasRole>
                         <shiro:hasRole name="admin">管理员</shiro:hasRole>
                         <shiro:hasRole name="guest">游客</shiro:hasRole>
-
                         <a href="<%=basePath%>user/logout">退出</a></shiro:authenticated>
-
                 </td>
             </tr>
             </thead>
@@ -71,9 +69,7 @@
                     <td><input type="button" class="btn btn-info btn-xs" value="修改"
                                onclick="javascript:update(${book.id });"/>
                         <input type="button" class="btn btn-info btn-xs" value="删除" onclick="del(${book.id });"/>
-
                     </td>
-
                 </tr>
             </c:forEach>
             </tbody>
@@ -120,8 +116,9 @@
     function update(id) {
         window.location = "<%=basePath%>book/findBookById/" + id;
     }
-
     function a() {
+        //获取图书标题
+        var s = document.getElementById("title").innerText;
         // 使用outerHTML属性获取整个table元素的HTML代码（包括<table>标签），然后包装成一个完整的HTML文档，设置charset为urf-8以防止中文乱码
         var html = "<html><head><meta charset='utf-8' /></head><body>" + document.getElementById("bookTable").outerHTML + "</body></html>";
         // 实例化一个Blob对象，其构造函数的第一个参数是包含文件内容的数组，第二个参数是包含文件类型属性的对象
@@ -131,10 +128,8 @@
         // 利用URL.createObjectURL()方法为a元素生成blob URL
         a.href = URL.createObjectURL(blob);
         // 设置文件名，目前只有Chrome和FireFox支持此属性
-        a.download = "学生成绩表.xls";
-
+        a.download = s + ".xls";
     }
-
 </script>
 </body>
 </html>

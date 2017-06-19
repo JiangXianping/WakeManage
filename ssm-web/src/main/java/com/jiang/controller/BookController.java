@@ -189,6 +189,7 @@ public class BookController {
         font.setFontName("微软雅黑");
         font.setBold(true);
         titleCellStyle.setFont(font);
+
         //设置宽度
         sheet.setDefaultColumnWidth(25);
         row.getCell(0).setCellStyle(titleCellStyle);
@@ -209,7 +210,6 @@ public class BookController {
             row.createCell(4).setCellValue(DateUtil.dateToStr(book.getBookPublicationDate()));
             row.createCell(5).setCellValue(DateUtil.dateToStr(book.getBookUpdatetime()));
             row.createCell(6).setCellValue(book.getBookIslend() == 0 ? "未借出" : "已借出");
-
         }
 
         try {

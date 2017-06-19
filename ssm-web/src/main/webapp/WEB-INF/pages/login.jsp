@@ -16,7 +16,6 @@
     input {
         opacity: 0.4;
         width: 300px;
-
     }
 
 </style>
@@ -36,7 +35,7 @@
         </tr>
         <tr>
 
-            <td><input name="password" value="" class="form-control" placeholder="密码" required></td>
+            <td><input name="password" type="password" value="" class="form-control" placeholder="密码" required></td>
         </tr>
         <tr>
 
