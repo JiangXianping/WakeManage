@@ -2,113 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a06188-86ed-4585-824a-13e23131fd80" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/target/classes/com/jiang/mapper/BookMapper.class" afterPath="$PROJECT_DIR$/ssm-dao/target/classes/com/jiang/mapper/BookMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/target/classes/com/jiang/service/impl/BookServiceImpl.class" afterPath="$PROJECT_DIR$/ssm-service/target/classes/com/jiang/service/impl/BookServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-12.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-19.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-25.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-26.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-27.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/MsgUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/table.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/AdminLTE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/_all-skins.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/datatables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/jquery/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/usercss/bookList.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jiang_ssm_util_0_0_1_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/ssm-master.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/target/classes/com/jiang/controller/BookController.class" afterPath="$PROJECT_DIR$/ssm-web/target/classes/com/jiang/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/target/classes/com/jiang/controller/UserController.class" afterPath="$PROJECT_DIR$/ssm-web/target/classes/com/jiang/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jiang_ssm_util_0_0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jiang_ssm_util_0_0_1_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/.classpath" afterPath="$PROJECT_DIR$/ssm-dao/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/.project" afterPath="$PROJECT_DIR$/ssm-dao/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.wst.validation.prefs" afterPath="$PROJECT_DIR$/ssm-dao/.settings/org.eclipse.wst.validation.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/pom.xml" afterPath="$PROJECT_DIR$/ssm-dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/src/main/java/com/jiang/mapper/BookMapper.java" afterPath="$PROJECT_DIR$/ssm-dao/src/main/java/com/jiang/mapper/BookMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/src/main/java/com/jiang/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/ssm-dao/src/main/java/com/jiang/mapper/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/src/main/java/com/jiang/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/ssm-dao/src/main/java/com/jiang/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/src/test/java/com/jiang/ssm/dao/AppTest.java" afterPath="$PROJECT_DIR$/ssm-dao/src/test/java/com/jiang/ssm/dao/AppTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-dao/ssm-dao.iml" afterPath="$PROJECT_DIR$/ssm-dao/ssm-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-master.iml" afterPath="$PROJECT_DIR$/ssm-master.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/.project" afterPath="$PROJECT_DIR$/ssm-model/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.wst.validation.prefs" afterPath="$PROJECT_DIR$/ssm-model/.settings/org.eclipse.wst.validation.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/pom.xml" afterPath="$PROJECT_DIR$/ssm-model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/src/main/java/com/jiang/model/User.java" afterPath="$PROJECT_DIR$/ssm-model/src/main/java/com/jiang/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/src/main/resource/generatorConfig.xml" afterPath="$PROJECT_DIR$/ssm-model/src/main/resource/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/src/test/java/com/jiang/ssm/model/AppTest.java" afterPath="$PROJECT_DIR$/ssm-model/src/test/java/com/jiang/ssm/model/AppTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-model/ssm-model.iml" afterPath="$PROJECT_DIR$/ssm-model/ssm-model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/.project" afterPath="$PROJECT_DIR$/ssm-service/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.wst.validation.prefs" afterPath="$PROJECT_DIR$/ssm-service/.settings/org.eclipse.wst.validation.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/pom.xml" afterPath="$PROJECT_DIR$/ssm-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/BookService.java" afterPath="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/BookService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/UserService.java" afterPath="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/impl/BookServiceImpl.java" afterPath="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/impl/BookServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/src/test/java/com/jiang/ssm/service/AppTest.java" afterPath="$PROJECT_DIR$/ssm-service/src/test/java/com/jiang/ssm/service/AppTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-service/ssm-service.iml" afterPath="$PROJECT_DIR$/ssm-service/ssm-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-util/pom.xml" afterPath="$PROJECT_DIR$/ssm-util/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/DateUtil.java" afterPath="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/DateUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/EncryptionUtil.java" afterPath="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/EncryptionUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/PropertiesUtil.java" afterPath="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/PropertiesUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-util/ssm-util.iml" afterPath="$PROJECT_DIR$/ssm-util/ssm-util.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/.project" afterPath="$PROJECT_DIR$/ssm-web/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/.settings/.jsdtscope" afterPath="$PROJECT_DIR$/ssm-web/.settings/.jsdtscope" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterPath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.wst.validation.prefs" afterPath="$PROJECT_DIR$/ssm-web/.settings/org.eclipse.wst.validation.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/pom.xml" afterPath="$PROJECT_DIR$/ssm-web/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/MsgController.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/MsgController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/PageController.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/PageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/TestController.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/UserController.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/shiro/ShiroRealm.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/shiro/ShiroRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/shiro/UserRealm.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/shiro/UserRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/ehcache.xml" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/ehcache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/properties/jdbc.properties" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/properties/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/properties/log4j.properties" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/properties/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-application.xml" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-application.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-ehcache.xml" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-ehcache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/addBook.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/addBook.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/editBook.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/editBook.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/Font-Awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/Font-Awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/bootstrap-table.css" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/bootstrap-table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-editable.js" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-editable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-table-editable.js" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-table-editable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-table-export.js" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-table-export.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-table-zh-CN.js" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-table-zh-CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/bootstrap-table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/tableExport.js" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/js/tableExport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/jquery/jquery-2.1.1.min.js" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/jquery/jquery-2.1.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/ssm-web.iml" afterPath="$PROJECT_DIR$/ssm-web/ssm-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/target/classes/mybatis-config.xml" afterPath="$PROJECT_DIR$/ssm-web/target/classes/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/target/classes/properties/jdbc.properties" afterPath="$PROJECT_DIR$/ssm-web/target/classes/properties/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/target/classes/properties/log4j.properties" afterPath="$PROJECT_DIR$/ssm-web/target/classes/properties/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/target/classes/spring/spring-application.xml" afterPath="$PROJECT_DIR$/ssm-web/target/classes/spring/spring-application.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/ssm-web/target/" />
     <ignored path="$PROJECT_DIR$/ssm-dao/target/" />
@@ -143,12 +65,32 @@
       <file leaf-file-name="bookList.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="206" column="17" lean-forward="false" selection-start-line="206" selection-start-column="17" selection-end-line="206" selection-end-column="17" />
+            <state relative-caret-position="524">
+              <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
               <folding>
-                <element signature="e#8760#9732#0#JSP" expanded="false" />
-                <element signature="e#10541#12616#0#JSP" expanded="false" />
+                <element signature="e#9913#10885#0#JSP" expanded="false" />
+                <element signature="e#11694#13769#0#JSP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bookList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,6 +112,7 @@
       <find>shi</find>
       <find>表格</find>
       <find>pageinfo</find>
+      <find>check_item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -229,13 +172,14 @@
         <option value="$PROJECT_DIR$/ssm-dao/src/main/java/com/jiang/mapper/BookMapper.java" />
         <option value="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/impl/BookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/Const.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/Color.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/TestColor.java" />
-        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/11111.jsp" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" />
       </list>
     </option>
   </component>
@@ -267,8 +211,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1552" />
-    <option name="height" value="850" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -323,6 +267,106 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jiang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jiang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -751,7 +795,6 @@
     </configuration>
     <configuration default="false" name="tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.721" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/page/login" />
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="ssm-web:war exploded">
@@ -855,7 +898,7 @@
       <workItem from="1501080678195" duration="1776000" />
       <workItem from="1501117531858" duration="895000" />
       <workItem from="1501118476726" duration="8195000" />
-      <workItem from="1501136571673" duration="14000" />
+      <workItem from="1501136571673" duration="7658000" />
     </task>
     <task id="LOCAL-00001" summary="Ajax请求,使用JQuery解析JSON数据，构建数据">
       <created>1501079770483</created>
@@ -892,11 +935,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501135231257</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajax请求,使用JQuery解析JSON数据，构建表格">
+      <created>1501136648719</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1501136648719</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75749000" />
+    <option name="totallyTimeSpent" value="83393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -908,7 +958,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="850" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -927,15 +977,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23874345" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1842932" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15755208" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -944,7 +995,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -975,10 +1025,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajax请求,使用JQuery解析JSON数据，构建数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajax请求,使用JQuery解析JSON数据，构建数据" />
+    <MESSAGE value="Ajax请求,使用JQuery解析JSON数据，构建表格" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajax请求,使用JQuery解析JSON数据，构建表格" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -986,13 +1039,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/properties/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/properties/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1034,13 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="47" column="41" lean-forward="false" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1248,13 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="74" column="62" lean-forward="false" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm-model/src/main/java/com/jiang/model/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1276,18 +1308,42 @@
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/a.java" />
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/Color.java" />
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/TestColor.java" />
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/11111.jsp" />
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/ssm-master.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="206" column="17" lean-forward="false" selection-start-line="206" selection-start-column="17" selection-end-line="206" selection-end-column="17" />
+        <state relative-caret-position="524">
+          <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
           <folding>
-            <element signature="e#8760#9732#0#JSP" expanded="false" />
-            <element signature="e#10541#12616#0#JSP" expanded="false" />
+            <element signature="e#9913#10885#0#JSP" expanded="false" />
+            <element signature="e#11694#13769#0#JSP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/11111.jsp" />
   </component>
   <component name="masterDetails">
     <states>

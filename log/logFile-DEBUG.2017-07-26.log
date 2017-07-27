@@ -1,0 +1,89 @@
+1412 22:48:28.564 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2033 22:48:29.185 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2036 22:48:29.188 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+3089 22:48:30.241 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.spring.LifecycleBeanPostProcessor - Initializing bean [myRealm]...
+3091 22:48:30.243 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+3092 22:48:30.244 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+4343 22:48:31.495 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+4374 22:48:31.526 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+4377 22:48:31.529 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+4379 22:48:31.531 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: D:\development\apache-tomcat-7.0.72\temp
+4415 22:48:31.567 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+4421 22:48:31.573 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+4435 22:48:31.587 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+4529 22:48:31.681 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+4530 22:48:31.682 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+4531 22:48:31.683 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+4543 22:48:31.695 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+4544 22:48:31.696 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+4544 22:48:31.696 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+4548 22:48:31.700 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+4548 22:48:31.700 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+4549 22:48:31.701 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+4713 22:48:31.865 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for userCache
+4788 22:48:31.940 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+4790 22:48:31.942 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+4791 22:48:31.943 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE
+4792 22:48:31.944 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE_BYTES
+4793 22:48:31.945 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+4794 22:48:31.946 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+4795 22:48:31.947 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+4825 22:48:31.977 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+4829 22:48:31.981 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+4830 22:48:31.982 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+4831 22:48:31.983 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_GET
+4832 22:48:31.984 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_PUT
+4834 22:48:31.986 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_REMOVE
+4835 22:48:31.987 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+4838 22:48:31.990 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+4839 22:48:31.991 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+4840 22:48:31.992 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+4841 22:48:31.993 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+4852 22:48:32.004 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.Cache - Initialised cache: userCache
+4853 22:48:32.005 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'userCache'.
+4854 22:48:32.006 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'userCache'.
+4857 22:48:32.009 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for appointmentCache
+4859 22:48:32.011 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+4860 22:48:32.012 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+4861 22:48:32.013 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE
+4862 22:48:32.014 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE_BYTES
+4863 22:48:32.015 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+4879 22:48:32.031 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+4880 22:48:32.032 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+4881 22:48:32.033 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+4882 22:48:32.034 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+4883 22:48:32.035 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+4884 22:48:32.036 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_GET
+4885 22:48:32.037 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_PUT
+4886 22:48:32.038 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: DISK_REMOVE
+4887 22:48:32.039 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+4889 22:48:32.041 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+4890 22:48:32.042 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+4893 22:48:32.045 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+4894 22:48:32.046 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+4901 22:48:32.053 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.Cache - Initialised cache: appointmentCache
+4902 22:48:32.054 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'appointmentCache'.
+4902 22:48:32.054 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'appointmentCache'.
+6808 22:48:33.960 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean - Creating Shiro Filter instance.
+6837 22:48:33.989 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Creating chain [/login.jsp] from String definition [anon]
+6838 22:48:33.990 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Attempting to apply path [/login.jsp] to filter [anon] with config [null]
+6840 22:48:33.992 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Creating chain [/login1.jsp] from String definition [anon]
+6840 22:48:33.992 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Attempting to apply path [/login1.jsp] to filter [anon] with config [null]
+6841 22:48:33.993 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Creating chain [/page/login] from String definition [anon]
+6841 22:48:33.993 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Attempting to apply path [/page/login] to filter [anon] with config [null]
+6842 22:48:33.994 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Creating chain [/user/login] from String definition [anon]
+6843 22:48:33.995 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Attempting to apply path [/user/login] to filter [anon] with config [null]
+6843 22:48:33.995 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Creating chain [/book/bookList] from String definition [anon]
+6843 22:48:33.995 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Attempting to apply path [/book/bookList] to filter [anon] with config [null]
+6844 22:48:33.996 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Creating chain [/**] from String definition [anon]
+6844 22:48:33.996 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager - Attempting to apply path [/**] to filter [anon] with config [null]
+7310 22:48:34.462 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis-config.xml]'
+7311 22:48:34.463 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+7528 22:48:34.680 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.spring.LifecycleBeanPostProcessor - Initializing bean [myRealm]...
+7528 22:48:34.680 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.realm.AuthorizingRealm - No authorizationCache instance set.  Checking for a cacheManager...
+7529 22:48:34.681 - [RMI TCP Connection(5)-127.0.0.1] DEBUG org.apache.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+7599 22:48:34.751 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+7601 22:48:34.753 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+7604 22:48:34.756 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+7607 22:48:34.759 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: D:\development\apache-tomcat-7.0.72\temp
+7610 22:48:34.762 - [RMI TCP Connection(5)-127.0.0.1] DEBUG net.sf.ehcache.CacheManager - Attempting to create an existing singleton. Existing singleton returned.

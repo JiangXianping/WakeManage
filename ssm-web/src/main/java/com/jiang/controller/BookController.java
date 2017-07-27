@@ -102,6 +102,13 @@ public class BookController {
         }
         return "redirect:/book/bookList";
     }
+    //Ajax删除图书
+    @ResponseBody
+    @RequestMapping("/del/{ids}")
+    public MsgUtil del(@PathVariable("ids")String ids){
+
+        return new MsgUtil().success();
+    }
 
     /**
      * 根据id查询

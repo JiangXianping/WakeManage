@@ -20,7 +20,23 @@
     <script type="text/javascript" src="<%=basePath%>resource/userjs/bookList.js"></script>
     <script type="text/javascript" src="<%=basePath%>resource/jquery/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript">
+        $(function () {
+            var myDate = new Date().toLocaleString();
+//            var year = myDate.getFullYear();        //年
+//            var month = myDate.getMonth() + 1;        //月
+//            var day = myDate.getDate();             //日
+//
+//            var hours = myDate.getHours();          //时
+//            var min = myDate.getMinutes();          //分
+//            if(min<10){
+//                min = 0+""+min;
+//            }
+//            var second = myDate.getSeconds();       //秒
+//            document.getElementById('add_update_input').value=year+"-"+month+"-"+day+" "+hours+":"+min+":"+second;
+            document.getElementById('add_update_input').value = myDate;
+        })
+    </script>
 </head>
 <body>
 <!-- 员工添加的模态框 -->
@@ -60,8 +76,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>更新时间:</td>
-                            <td><input name="bookUpdatetime" class="form-control" placeholder="yyyy-MM-dd HH:mm:ss"/>
+                            <%--<td>更新时间:</td>--%>
+                            <td><input name="bookUpdatetime" type="hidden" class="form-control" id="add_update_input"/>
                             </td>
                         </tr>
                         <tr>
@@ -126,7 +142,12 @@
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><input name="bookIslend" class="form-control" type="hidden" value="0"/>
+                            <td>是否可借</td>
+                            <td><select name="bookIslend">
+                                <option value="0">可借</option>
+                                <option value="1">不可借</option>
+                            </select>
+                                <%--<input name="bookIslend" class="form-control" type="" value="0"/>--%>
                             </td>
                         </tr>
                         <%--                        <tr>
@@ -152,12 +173,13 @@
             <thead>
             <tr>
                 <td colspan="7" align="center" style="font-size: 22px;">图书管理系统</td>
-                <td width="200px"><shiro:guest>欢迎游客访问</shiro:guest>
+                <td width="300px"><shiro:guest>欢迎游客访问</shiro:guest>
                     <shiro:authenticated>欢迎&nbsp;&nbsp;${sessionScope.currUser.username}&nbsp;&nbsp;
                         <shiro:hasRole name="superadmin">超级管理员</shiro:hasRole>
                         <shiro:hasRole name="admin">管理员</shiro:hasRole>
                         <shiro:hasRole name="guest">游客</shiro:hasRole>
                         <a href="<%=basePath%>user/logout">退出</a></shiro:authenticated>
+                    <shiro:hasRole name="superadmin"><button class="btn btn-danger" id="delete_all_book">删除</button></shiro:hasRole>
                 </td>
             </tr>
 
@@ -273,7 +295,6 @@
     });
     <!--相对应的Msg类没有写-->
     function build_emps_table(result) {
-        console.log(result);
         $("#bookTable tbody").empty();
         var bookLists = result.extend.pageInfo.list;
         $.each(bookLists, function (index, item) {
@@ -284,6 +305,9 @@
             var day = myDate.getDate();             //日
 
             myDate = new Date(item.bookUpdatetime);
+            var updateYear = myDate.getFullYear();        //年
+            var updateMonth = myDate.getMonth() + 1;        //月
+            var updateDay = myDate.getDate();             //日
             var hours = myDate.getHours();          //时
             var min = myDate.getMinutes();          //分
             var second = myDate.getSeconds();       //秒
@@ -294,7 +318,7 @@
             var bookAuthor = $("<td></td>").append(item.bookAuthor);
             var bookPublishing = $("<td></td>").append(item.bookPublishing);
             var bookPublicationDate = $("<td></td>").append(year + "年" + month + "月" + day + "日");
-            var bookUpdatetime = $("<td></td>").append(year + "年" + month + "月" + day + "日&nbsp;&nbsp;" + hours + ":" + min + ":" + second);
+            var bookUpdatetime = $("<td></td>").append(updateYear + "年" + updateMonth + "月" + updateDay + "日&nbsp;&nbsp;" + hours + ":" + min + ":" + second);
             var bookIslend = $("<td></td>").append(item.bookIslend == 0 ? "可借" : "不可借");
             var editBtn = $("<button></button>").addClass("btn btn-info btn-s edit_btn").append("编辑");
             var delBtn = $("<button></button>").addClass("btn btn-danger btn-s delete_btn").append("删除");
@@ -351,9 +375,9 @@
             lastPageLi.addClass("disabled");
         }
         nextPageLi.click(function () {
-            if(result.extend.pageInfo.hasNextPage){
+            if (result.extend.pageInfo.hasNextPage) {
                 to_page(result.extend.pageInfo.pageNum + 1);
-            }else{
+            } else {
                 to_page(result.extend.pageInfo.pageNum);
             }
 
@@ -444,17 +468,36 @@
 
     //完成全选/全不选功能
     $("#check_all").click(function () {
-       //attr获取checked是undefined;
+        //attr获取checked是undefined;
         //我们这些dom原生的属性，attr获取自定义属性的值
         //prop修改和读取dom原生属性的值
-        $(".check_item").prop("checked",$(this).prop("checked"));
+        $(".check_item").prop("checked", $(this).prop("checked"));
     });
 
     //check_item
-    $(document).on('click','.check_item',function(){
-        //判断当前选择中的元素是否是5个
+    $(document).on('click', '.check_item', function () {
+        //判断当前选择中的元素是否是10个
         var flag = $(".check_item:checked").length == $(".check_item").length;
-        $("#check_all").prop("checked",flag);
+        $("#check_all").prop("checked", flag);
+    });
+
+    //批量删除
+    $("#delete_all_book").click(function(){
+        //
+        var bookNames="";
+        $.each($(".check_item:checked"),function () {
+            bookNames+=$(this).parents("tr").find("td:eq(1)").text()+",";
+        });
+        bookNames = bookNames.substring(0,bookNames.length-1);
+        if(bookNames.length==0){
+            alert("请选择图书");
+        }else{
+            if(confirm("确认删除["+bookNames+"]吗？")){
+                //发送Ajax请求
+
+            }
+
+    }
     });
 </script>
 </body>
