@@ -33,10 +33,10 @@
         <!-- Shiro的核心安全接口,这个属性是必须的 -->
         <property name="securityManager" ref="securityManager"/>
         <!-- 身份认证失败，则跳转到登录页面的配置 -->
-        <!--<property name="loginUrl" value="/index.jsp"/>-->
+        <property name="loginUrl" value="/error.jsp"/>
         <!-- 认证成功 -->
         <!-- 权限认证失败，则跳转到指定页面 -->
-        <!--<property name="unauthorizedUrl" value="/index.jsp"/>-->
+        <!-- <property name="unauthorizedUrl" value="/index.jsp"/> -->
 
         <!-- Shiro连接约束配置,即过滤链的定义 -->
         <property name="filterChainDefinitions">
@@ -47,10 +47,11 @@
             -->
             <value>
                 /login.jsp = anon
+                /login1.jsp = anon
                 /page/login = anon
                 /user/login = anon
                 /book/bookList = anon
-                /**=authc
+                /**=anon
 
                 <!--	        /page/login=anon
                                 /page/register=anon

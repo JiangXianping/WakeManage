@@ -53,7 +53,7 @@ public class UserController {
             logger.info("用户对象:" + userService.findByName(user.getUsername()));
             session.setAttribute("currUser", userService.findByName(user.getUsername()));
             session.setMaxInactiveInterval(30 * 60 * 1000);
-            m.setViewName("redirect:/book/bookList");
+            m.setViewName("redirect:/page/bookList");
         } catch (Exception e) {
             e.printStackTrace();
             m.setViewName("redirect:/page/login");

@@ -1,3 +1,4 @@
+/*
 package com.jiang.controller;
 
 import com.taobao.api.ApiException;
@@ -8,9 +9,11 @@ import com.taobao.api.response.AlibabaAliqinFcSmsNumSendResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+*/
 /**
  * Created by jiang on 2017/6/19.
- */
+ *//*
+
 @Controller
 @RequestMapping("/Msg")
 public class MsgController {
@@ -33,3 +36,4 @@ public class MsgController {
         return "SUCCESS";
     }
 }
+*/

@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/ssm-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssm-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssm-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm-util" charset="UTF-8" />
   </component>
 </project>

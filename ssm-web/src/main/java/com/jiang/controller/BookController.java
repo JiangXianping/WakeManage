@@ -4,15 +4,12 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
 import java.util.List;
-import java.util.Map;
-import java.util.Objects;
 
 import com.jiang.model.User;
 import com.jiang.util.DateUtil;
+import com.jiang.util.MsgUtil;
 import org.apache.poi.hssf.usermodel.HSSFFont;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.hssf.util.HSSFColor;
@@ -22,10 +19,9 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -35,8 +31,6 @@ import com.google.gson.Gson;
 import com.jiang.model.Book;
 import com.jiang.service.BookService;
 
-import javax.enterprise.inject.Model;
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
@@ -66,13 +60,21 @@ public class BookController {
         binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
     }*/
 
+//    @RequestMapping("/addBook")
+//    public String addBook(Book book) {
+//        int num = bookService.addBook(book);
+//        if (num == 1) {
+//            return "redirect:/book/bookList";
+//        }
+//        return "redirect:/book/bookList";
+//    }
+
+    @ResponseBody
     @RequestMapping("/addBook")
-    public String addBook(Book book) {
-        int num = bookService.addBook(book);
-        if (num == 1) {
-            return "redirect:/book/bookList";
-        }
-        return "redirect:/book/bookList";
+    public MsgUtil addBook(Book book){
+        System.out.print("addBook"+book.getBookPublishing()+" "+book.getBookUpdatetime()+" "+book.getBookPublicationDate());
+        bookService.addBook(book);
+        return MsgUtil.success();
     }
 
     @RequestMapping(value = "/modify", method = {RequestMethod.GET, RequestMethod.POST})
@@ -119,15 +121,17 @@ public class BookController {
     }
 
     /**
-     * 使用PageHelper实现分页功能
-     *
+     * 需要导入jackson jar
+     * @param mv
+     * @param page
+     * @param pageSize
      * @return
      */
+    @ResponseBody
     @RequestMapping("/bookList")
-    public ModelAndView bookList(ModelAndView mv,
-                                 @RequestParam(required = true, defaultValue = "1") Integer page,
-                                 @RequestParam(required = true, defaultValue = "10") Integer pageSize) {
-
+    public MsgUtil bookListWithJson(ModelAndView mv,
+                        @RequestParam(required = true, defaultValue = "1") Integer page,
+                        @RequestParam(required = true, defaultValue = "10") Integer pageSize){
         //表示开始分页
         //page:第几页
         //pageSize:每页显示多少
@@ -138,13 +142,41 @@ public class BookController {
         PageInfo<Book> pageInfo = new PageInfo<Book>(list);
 
         mv.addObject("pageInfo", pageInfo);
-        mv.addObject("bookList", list);
+//        mv.addObject("bookList", list);
 
         System.out.println(gson.toJson(pageInfo));
-        mv.setViewName("bookList.jsp");
+//        mv.setViewName("bookList.jsp");
 
-        return mv;
+        return MsgUtil.success().add("pageInfo",pageInfo);
     }
+
+    /**
+     * 使用PageHelper实现分页功能
+     *
+     * @return
+     */
+//    @RequestMapping("/bookList")
+//    public ModelAndView bookList(ModelAndView mv,
+//                                 @RequestParam(required = true, defaultValue = "1") Integer page,
+//                                 @RequestParam(required = true, defaultValue = "10") Integer pageSize) {
+//
+//        //表示开始分页
+//        //page:第几页
+//        //pageSize:每页显示多少
+//
+//        PageHelper.startPage(page, pageSize);
+//        mv = new ModelAndView();
+//        List<Book> list = bookService.findAllBook();
+//        PageInfo<Book> pageInfo = new PageInfo<Book>(list);
+//
+//        mv.addObject("pageInfo", pageInfo);
+//        mv.addObject("bookList", list);
+//
+//        System.out.println(gson.toJson(pageInfo));
+//        mv.setViewName("bookList.jsp");
+//
+//        return mv;
+//    }
 
     /**
      * 导出当前页到Excel文件

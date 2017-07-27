@@ -36,12 +36,12 @@
             <artifactId>ssm-util</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!-- 实现slf4j接口并整合 -->
         <dependency>
-            <groupId>com.jiang</groupId>
-            <artifactId>util</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.1.1</version>
         </dependency>
-
     </dependencies>
 	<build>
 		<finalName>ssm-web</finalName>

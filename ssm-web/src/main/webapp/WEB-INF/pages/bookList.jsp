@@ -14,22 +14,138 @@
     <base href="<%=basePath%>webapp/resource/">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title id="title">图书列表</title>
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/bootstrap-table.css">
+    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="<%=basePath%>resource/Font-Awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<%=basePath%>resource/Font-Awesome/font/fontawesome-webfont.svg">
-    <link rel="stylesheet" href="<%=basePath%>resource/Font-Awesome/font/FontAwesome.otf">
     <link rel="stylesheet" href="<%=basePath%>resource/usercss/bookList.css">
-    <link rel="stylesheet" href="<%=basePath%>resource/userjs/bookList.js">
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap.js">
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-table.js">
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-editable.js">
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-table-editable.js">
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-table-export.js">
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/bootstrap-table-zh-CN.js">
-    <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/js/tableExport.js">
+    <script type="text/javascript" src="<%=basePath%>resource/userjs/bookList.js"></script>
+    <script type="text/javascript" src="<%=basePath%>resource/jquery/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
 </head>
 <body>
+<!-- 员工添加的模态框 -->
+<div class="modal fade" id="addBookModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="addBookTitle">图书添加</h4>
+            </div>
+            <div class="modal-body">
+                <form action="<%=basePath%>book/addBook" method="get" id="add_book_form" role="form">
+                    <table table table-condensed align="center" width="380px" height="360px">
+                        <thead>
+                        <tr>
+                            <td colspan="2" align="center"><h3>添加图书信息</h3></td>
+                        </tr>
+
+                        </thead>
+
+                        <tr>
+                            <td>图书名称:</td>
+                            <td><input name="bookName" id="bookName" class="form-control"/></td>
+                        </tr>
+                        <tr>
+                            <td>图书作者:</td>
+                            <td><input name="bookAuthor" id="bookAuthor" class="form-control"/></td>
+                        </tr>
+                        <tr>
+                            <td>出版社:</td>
+                            <td><input name="bookPublishing" class="form-control"/></td>
+                        </tr>
+                        <tr>
+                            <td>出版时间:</td>
+                            <td><input name="bookPublicationDate" type="date" class="form-control"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>更新时间:</td>
+                            <td><input name="bookUpdatetime" class="form-control" placeholder="yyyy-MM-dd HH:mm:ss"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input name="bookIslend" class="form-control" type="hidden" value="0"/>
+                            </td>
+                        </tr>
+                        <%--                        <tr>
+                                                    <td></td>
+                                                    <td><input type="submit" class="btn btn-primary" id="modify" value="添加">&nbsp;&nbsp;
+                                                        <input type="button" class="btn btn-primary" id="back" onclick="javascript:window.history.back();"
+                                                               value="返回"/></td>
+                                                </tr>--%>
+                    </table>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" id="book_save_btn">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 员工更新的模态框 -->
+<div class="modal fade" id="updateBookModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">信息更新</h4>
+            </div>
+            <div class="modal-body">
+                <form action="<%=basePath%>book/addBook" method="get" id="update_book_form" role="form">
+                    <table table table-condensed align="center" width="380px" height="360px">
+                        <thead>
+                        <tr>
+                            <td colspan="2" align="center"><h3>添加图书信息</h3></td>
+                        </tr>
+
+                        </thead>
+
+                        <tr>
+                            <td>图书名称:</td>
+                            <td><input name="bookName" id="update_bookName" class="form-control"/></td>
+                        </tr>
+                        <tr>
+                            <td>图书作者:</td>
+                            <td><input name="bookAuthor" id="update_bookAuthor" class="form-control"/></td>
+                        </tr>
+                        <tr>
+                            <td>出版社:</td>
+                            <td><input name="bookPublishing" class="form-control"/></td>
+                        </tr>
+                        <tr>
+                            <td>出版时间:</td>
+                            <td><input name="bookPublicationDate" class="form-control"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>更新时间:</td>
+                            <td><input name="bookUpdatetime" class="form-control" placeholder="yyyy-MM-dd HH:mm:ss"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input name="bookIslend" class="form-control" type="hidden" value="0"/>
+                            </td>
+                        </tr>
+                        <%--                        <tr>
+                                                    <td></td>
+                                                    <td><input type="submit" class="btn btn-primary" id="modify" value="添加">&nbsp;&nbsp;
+                                                        <input type="button" class="btn btn-primary" id="back" onclick="javascript:window.history.back();"
+                                                               value="返回"/></td>
+                                                </tr>--%>
+                    </table>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" id="book_update_btn">修改</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="body">
     <form action="">
         <table id="bookTable" class="table table-hover table-responsive" width="100%">
@@ -44,9 +160,10 @@
                         <a href="<%=basePath%>user/logout">退出</a></shiro:authenticated>
                 </td>
             </tr>
-            </thead>
-            <tbody>
+
+
             <tr>
+                <th><input type="checkbox" id="check_all"/></th>
                 <th align="center">图书编号</th>
                 <th>图书名称</th>
                 <th>图书作者</th>
@@ -56,7 +173,9 @@
                 <th>是否可借</th>
                 <th>操作</th>
             </tr>
-            <c:forEach items="${pageInfo.list}" var="book" varStatus="status">
+            </thead>
+            <tbody>
+            <%--<c:forEach items="${pageInfo.list}" var="book" varStatus="status">
                 <tr>
                     <td>${book.id }</td>
                     <td>${book.bookName }</td>
@@ -66,47 +185,217 @@
                     <td><fmt:formatDate value="${book.bookUpdatetime }" type="both"/></td>
                     <td><c:if test="${book.bookIslend == '1' }">已借出</c:if>
                         <c:if test="${book.bookIslend == '0' }">可借</c:if></td>
-                    <td><input type="button" class="btn btn-info btn-xs" value="修改"
+                    <td><input type="button" class="btn btn-info btn-s" value="修改"
                                onclick="javascript:update(${book.id });"/>
-                        <input type="button" class="btn btn-info btn-xs" value="删除" onclick="del(${book.id });"/>
+                        <input type="button" class="btn btn-danger btn-s" value="删除" onclick="del(${book.id });"/>
                     </td>
                 </tr>
-            </c:forEach>
+            </c:forEach>--%>
             </tbody>
         </table>
     </form>
 </div>
-<div id="add" style="margin-left: 5%;padding-top: 2%;">
-    <a href="<%=basePath%>page/addBook">
-        <input type=button class="btn btn-info btn-xs" value="添加图书"/>
-    </a>
+<div class="col-md-4" id="page_info">
+    <%--当前${pageInfo.pageNum},总共${pageInfo.pages}页,总${pageInfo.total}条记录--%>
+</div>
+<div class="col-md-3">
+    <shiro:hasRole name="superadmin">
+        <%--<a href="<%=basePath%>page/addBook">--%>
+        <button type="button" class="btn btn-info btn-s" data-toggle="modal" data-target="#myModal"
+                id="book_add_modal_btn">
+            添加图书
+        </button>
+        <%--</a>--%>
+    </shiro:hasRole>
     <a href="<%=basePath%>book/exportCurrPage">
-        <input type=button class="btn btn-info btn-xs" value="导出全部信息"/>
+        <input type=button class="btn btn-info btn-s" value="导出全部信息"/>
     </a>
     <a id="download">
-        <input type=button class="btn btn-info btn-xs" value="导出当前页" onclick="a()"/>
+        <input type=button class="btn btn-info btn-s" value="导出当前页" onclick="a()"/>
     </a>
 </div>
-<div id="foot">
-    <a href="<%=basePath%>book/bookList?page=${pageInfo.firstPage }&rows=${pageInfo.pageSize}">
-        <input type=button class="btn btn-info btn-xs" value="首页"/>
-    </a>
-    <a href="<%=basePath%>book/bookList?<c:if test="${pageInfo.prePage =='0'}">page=1</c:if>
+
+<div class="col-md-4" id="page_info_nav">
+    <%--<nav aria-label="Page navigation">
+        <ul class="pagination">
+            <li>
+                <a href="<%=basePath%>book/bookList?page=1&rows=${pageInfo.pageSize}">
+                    首页
+                </a>
+            </li>
+            <!-- 如果有前一页才显示该标签 -->
+            <c:if test="${pageInfo.hasPreviousPage}">
+                <li>
+                    <a href="<%=basePath%>book/bookList?<c:if test="${pageInfo.prePage =='0'}">page=1</c:if>
 									<c:if test="${pageInfo.prePage !='0'}">page=${pageInfo.prePage}</c:if>
-									&rows=${pageInfo.pageSize}">
-        <input type=button class="btn btn-info btn-xs" value="前一页"/>
-    </a>
-    <a href="<%=basePath%>book/bookList?
+									&rows=${pageInfo.pageSize}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            </c:if>
+            <c:forEach items="${pageInfo.navigatepageNums}" var="pageNums">
+
+                <!-- 如果显示的页码为当前页码，则高亮显示 -->
+                <c:if test="${pageInfo.pageNum == pageNums}">
+                    <li class="active"><a
+                            href="<%=basePath%>book/bookList?page=${pageNums}&rows=${pageInfo.pageSize}">${pageNums}</a>
+                    </li>
+                </c:if>
+                <c:if test="${pageInfo.pageNum != pageNums}">
+                    <li><a href="<%=basePath%>book/bookList?page=${pageNums}&rows=${pageInfo.pageSize}">${pageNums}</a>
+                    </li>
+                </c:if>
+            </c:forEach>
+            <c:if test="${pageInfo.hasNextPage}">
+                <li>
+
+                    <a href="<%=basePath%>book/bookList?
 					<c:if test="${pageInfo.isLastPage  == 'true'}">page=${pageInfo.lastPage }</c:if>
 					<c:if test="${pageInfo.isLastPage  == 'false'}">page=${pageInfo.nextPage }</c:if>
-					&rows=${pageInfo.pageSize}">
-        <input type=button class="btn btn-info btn-xs" value="下一页"/>
-    </a>
-    <a href="<%=basePath%>book/bookList?page=${pageInfo.lastPage }&rows=${pageInfo.pageSize}">
-        <input type=button class="btn btn-info btn-xs" value="尾页"/>
-    </a>
+					&rows=${pageInfo.pageSize}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </c:if>
+            <li>
+                <a href="<%=basePath%>book/bookList?page=${pageInfo.pages }&rows=${pageInfo.pageSize}">
+                    尾页
+                </a>
+            </li>
+        </ul>
+    </nav>--%>
 </div>
-<script type="application/javascript">
+
+<script type="text/javascript">
+    $(function () {
+        to_page(1);
+
+    });
+    <!--相对应的Msg类没有写-->
+    function build_emps_table(result) {
+        console.log(result);
+        $("#bookTable tbody").empty();
+        var bookLists = result.extend.pageInfo.list;
+        $.each(bookLists, function (index, item) {
+            //时间戳转换为年月日
+            var myDate = new Date(item.bookPublicationDate);
+            var year = myDate.getFullYear();        //年
+            var month = myDate.getMonth() + 1;        //月
+            var day = myDate.getDate();             //日
+
+            myDate = new Date(item.bookUpdatetime);
+            var hours = myDate.getHours();          //时
+            var min = myDate.getMinutes();          //分
+            var second = myDate.getSeconds();       //秒
+
+            var checkBoxId = $("<td><input type='checkbox' class='check_item'/></td>");
+            var id = $("<td></td>").append(item.id);
+            var bookName = $("<td></td>").append(item.bookName);
+            var bookAuthor = $("<td></td>").append(item.bookAuthor);
+            var bookPublishing = $("<td></td>").append(item.bookPublishing);
+            var bookPublicationDate = $("<td></td>").append(year + "年" + month + "月" + day + "日");
+            var bookUpdatetime = $("<td></td>").append(year + "年" + month + "月" + day + "日&nbsp;&nbsp;" + hours + ":" + min + ":" + second);
+            var bookIslend = $("<td></td>").append(item.bookIslend == 0 ? "可借" : "不可借");
+            var editBtn = $("<button></button>").addClass("btn btn-info btn-s edit_btn").append("编辑");
+            var delBtn = $("<button></button>").addClass("btn btn-danger btn-s delete_btn").append("删除");
+            var btnTd = $("<td></td>").append(editBtn).append("&nbsp;&nbsp;").append(delBtn);
+            $("<tr></tr>").append(checkBoxId)
+                .append(id)
+                .append(bookName)
+                .append(bookAuthor)
+                .append(bookPublishing)
+                .append(bookPublicationDate)
+                .append(bookUpdatetime)
+                .append(bookIslend)
+                .append(btnTd)
+                .appendTo("#bookTable tbody");
+        });
+    }
+    ;
+    //显示分页信息
+    var totalRecord;
+    function build_page_info(result) {
+        $("#page_info").empty();
+        $("#page_info").append("当前第" + result.extend.pageInfo.pageNum + "页，"
+            + "总共" + result.extend.pageInfo.pages + "页，总共"
+            + result.extend.pageInfo.total + "条记录");
+        totalRecord = result.extend.pageInfo.pages;
+
+    }
+    //显示分页条信息
+    function build_page_nav(result) {
+        $("#page_info_nav").addClass(".col-md-4");
+        $("#page_info_nav").empty();
+        var ul = $("<ul></ul>").addClass("pagination");
+        var firstPageLi = $("<li></li>").append($("<a></a>").append("首页"));
+        var prePageLi = $("<li></li>").append($("<a></a>").append("&laquo;"));
+        if (result.extend.pageInfo.hasPreviousPage == false) {
+            prePageLi.addClass("disabled");
+            firstPageLi.addClass("disabled");
+        }
+        firstPageLi.click(function () {
+            to_page(1);
+        });
+        prePageLi.click(function () {
+            if (result.extend.pageInfo.hasPreviousPage == false) {
+                to_page(result.extend.pageInfo.pageNum);
+            } else {
+                to_page(result.extend.pageInfo.pageNum - 1);
+            }
+        });
+
+        var nextPageLi = $("<li></li>").append($("<a></a>").append("&raquo;"));
+        var lastPageLi = $("<li></li>").append($("<a></a>").append("尾页"));
+        if (result.extend.pageInfo.hasNextPage == false) {
+            nextPageLi.addClass("disabled");
+            lastPageLi.addClass("disabled");
+        }
+        nextPageLi.click(function () {
+            if(result.extend.pageInfo.hasNextPage){
+                to_page(result.extend.pageInfo.pageNum + 1);
+            }else{
+                to_page(result.extend.pageInfo.pageNum);
+            }
+
+        });
+        lastPageLi.click(function () {
+            to_page(result.extend.pageInfo.pages);
+        });
+        //添加首页和前一页的提示
+        ul.append(firstPageLi).append(prePageLi);
+        //遍历页码
+        $.each(result.extend.pageInfo.navigatepageNums, function (index, item) {
+            var numLi = $("<li></li>").append($("<a></a>").append(item));
+            if (result.extend.pageInfo.pageNum == item) {
+                numLi.addClass("active");
+            }
+            numLi.click(function () {
+                to_page(item);
+            });
+            ul.append(numLi);
+        })
+        //添加下一页和尾页的提示
+        ul.append(nextPageLi).append(lastPageLi);
+        var navEle = $("<nav></nav>").append(ul);
+        navEle.appendTo("#page_info");
+    }
+    //跳转到指定页面
+    function to_page(page) {
+        $.ajax({
+            url: "<%=basePath%>book/bookList",
+            data: "page=" + page + "&rows=${pageInfo.pageSize}",
+            type: "get",
+            success: function (result) {
+                console.info(JSON.stringify(result));
+                //显示表格数据
+                build_emps_table(result);
+                //显示分页数据
+                build_page_info(result);
+                //显示分页条数据
+                build_page_nav(result);
+            }
+        });
+    }
     function del(id) {
         var flag = confirm("确定删除吗？");
         if (flag == true) {
@@ -130,6 +419,43 @@
         // 设置文件名，目前只有Chrome和FireFox支持此属性
         a.download = s + ".xls";
     }
+    //点击弹出添加信息的模态框
+    $('#book_add_modal_btn').click(function () {
+        $('#addBookModal').modal({
+                backdrop: "static"
+            }
+        );
+    });
+
+    $("#book_save_btn").click(function () {
+        $.ajax({
+            url: "<%=basePath%>book/addBook",
+            type: "POST",
+            data: $("#add_book_form").serialize(),
+            success: function (result) {
+                $("#addBookModal").modal('hide');
+                to_page(totalRecord);
+            },
+            error: function (result) {
+
+            }
+        });
+    });
+
+    //完成全选/全不选功能
+    $("#check_all").click(function () {
+       //attr获取checked是undefined;
+        //我们这些dom原生的属性，attr获取自定义属性的值
+        //prop修改和读取dom原生属性的值
+        $(".check_item").prop("checked",$(this).prop("checked"));
+    });
+
+    //check_item
+    $(document).on('click','.check_item',function(){
+        //判断当前选择中的元素是否是5个
+        var flag = $(".check_item:checked").length == $(".check_item").length;
+        $("#check_all").prop("checked",flag);
+    });
 </script>
 </body>
 </html>

@@ -23,4 +23,10 @@ public class PageController {
         return "login.jsp";
     }
 
+    //跳转到登录页面
+    @RequestMapping("/bookList")
+    public String bookList() {
+        return "bookList.jsp";
+    }
+
 }
