@@ -5,7 +5,7 @@
     <groupId>com.jiang</groupId>
     <artifactId>ssm-master</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
 
     <properties>
         <!-- spring版本号 -->

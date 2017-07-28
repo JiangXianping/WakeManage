@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a06188-86ed-4585-824a-13e23131fd80" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-12.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-19.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-25.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-26.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logFile-DEBUG.2017-07-27.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/MsgUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList1.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/table.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/AdminLTE.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/_all-skins.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/dataTables.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/datatables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/jquery/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/usercss/bookList.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jiang_ssm_util_0_0_1_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/ssm-master.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/target/classes/com/jiang/controller/BookController.class" afterPath="$PROJECT_DIR$/ssm-web/target/classes/com/jiang/controller/BookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml" afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/error.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/error.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/ssm-web/target/" />
     <ignored path="$PROJECT_DIR$/ssm-dao/target/" />
@@ -62,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bookList.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bookList.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
               <folding>
                 <element signature="e#9913#10885#0#JSP" expanded="false" />
                 <element signature="e#11694#13769#0#JSP" expanded="false" />
@@ -75,11 +53,74 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/error.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/properties/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state relative-caret-position="2620">
+              <caret line="163" column="7" lean-forward="false" selection-start-line="163" selection-start-column="7" selection-end-line="163" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -150,14 +191,12 @@
         <option value="$PROJECT_DIR$/ssm-util/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/DateUtil.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/MsgController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/resources/properties/log4j.properties" />
         <option value="$PROJECT_DIR$/ssm-web/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-application.xml" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/login1.html" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/login1.jsp" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp" />
@@ -179,7 +218,10 @@
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/11111.jsp" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/error.jsp" />
       </list>
     </option>
   </component>
@@ -200,6 +242,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/development/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\development\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -255,9 +298,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,6 +348,66 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -333,40 +436,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jiang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WakeManage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WakeManage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jiang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,11 +444,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm-web/src/main/webapp" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21700224" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -729,6 +798,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -793,11 +884,34 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="maven" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="false" name="tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.721" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/page/login" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ssm-web:war exploded">
+        <artifact name="ssm-web:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -862,12 +976,13 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ssm-web:war exploded" />
+          <artifact name="ssm-web:war" />
         </option>
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat 7.0" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Maven.maven" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat 7.0" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -898,7 +1013,10 @@
       <workItem from="1501080678195" duration="1776000" />
       <workItem from="1501117531858" duration="895000" />
       <workItem from="1501118476726" duration="8195000" />
-      <workItem from="1501136571673" duration="7658000" />
+      <workItem from="1501136571673" duration="7837000" />
+      <workItem from="1501147536652" duration="5296000" />
+      <workItem from="1501201268339" duration="2039000" />
+      <workItem from="1501226156445" duration="3758000" />
     </task>
     <task id="LOCAL-00001" summary="Ajax请求,使用JQuery解析JSON数据，构建数据">
       <created>1501079770483</created>
@@ -942,11 +1060,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501136648719</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="优化前端页面，增加批量删除，功能尚未解决">
+      <created>1501144376503</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1501144376503</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83393000" />
+    <option name="totallyTimeSpent" value="94665000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -983,10 +1108,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1842932" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879582" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1026,7 +1151,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajax请求,使用JQuery解析JSON数据，构建数据" />
     <MESSAGE value="Ajax请求,使用JQuery解析JSON数据，构建表格" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajax请求,使用JQuery解析JSON数据，构建表格" />
+    <MESSAGE value="优化前端页面，增加批量删除，功能尚未解决" />
+    <MESSAGE value="批量删除功能尚未解决，增加权限验证，在没有登录的情况下，无法访问列表页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="批量删除功能尚未解决，增加权限验证，在没有登录的情况下，无法访问列表页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1039,42 +1166,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/properties/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="88" column="2" lean-forward="false" selection-start-line="88" selection-start-column="2" selection-end-line="90" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1060">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/editBook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/bootstrap/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/logFile-DEBUG.2017-07-12.log" />
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1303,13 +1394,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/logFile-DEBUG.2017-07-25.log" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/Const.java" />
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/a.java" />
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/Color.java" />
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/TestColor.java" />
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/11111.jsp" />
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/ssm-master.log">
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/ssm-master.log" />
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/properties/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2620">
+          <caret line="163" column="7" lean-forward="false" selection-start-line="163" selection-start-column="7" selection-end-line="163" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1317,30 +1435,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="140">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java">
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="496" column="0" lean-forward="false" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
           <folding>
             <element signature="e#9913#10885#0#JSP" expanded="false" />
             <element signature="e#11694#13769#0#JSP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1363,7 +1497,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (ssm-web)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1398,12 +1532,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ssm-web</last-edited>
+          <last-edited>Web|ssm-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.21700224" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

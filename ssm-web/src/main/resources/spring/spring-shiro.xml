@@ -50,7 +50,8 @@
                 /login1.jsp = anon
                 /page/login = anon
                 /user/login = anon
-                /book/bookList = anon
+                /book/bookList = authc
+                /page/bookList = authc
                 /**=anon
 
                 <!--	        /page/login=anon

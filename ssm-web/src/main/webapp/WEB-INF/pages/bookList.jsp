@@ -320,8 +320,8 @@
             var bookPublicationDate = $("<td></td>").append(year + "年" + month + "月" + day + "日");
             var bookUpdatetime = $("<td></td>").append(updateYear + "年" + updateMonth + "月" + updateDay + "日&nbsp;&nbsp;" + hours + ":" + min + ":" + second);
             var bookIslend = $("<td></td>").append(item.bookIslend == 0 ? "可借" : "不可借");
-            var editBtn = $("<button></button>").addClass("btn btn-info btn-s edit_btn").append("编辑");
-            var delBtn = $("<button></button>").addClass("btn btn-danger btn-s delete_btn").append("删除");
+            var editBtn = $("<shiro:hasRole name="superadmin"><button></button></shiro:hasRole>").addClass("btn btn-info btn-s edit_btn").append("编辑");
+            var delBtn = $("<shiro:hasRole name="superadmin"><button></button></shiro:hasRole>").addClass("btn btn-danger btn-s delete_btn").append("删除");
             var btnTd = $("<td></td>").append(editBtn).append("&nbsp;&nbsp;").append(delBtn);
             $("<tr></tr>").append(checkBoxId)
                 .append(id)
@@ -483,7 +483,6 @@
 
     //批量删除
     $("#delete_all_book").click(function(){
-        //
         var bookNames="";
         $.each($(".check_item:checked"),function () {
             bookNames+=$(this).parents("tr").find("td:eq(1)").text()+",";
@@ -494,9 +493,7 @@
         }else{
             if(confirm("确认删除["+bookNames+"]吗？")){
                 //发送Ajax请求
-
             }
-
     }
     });
 </script>

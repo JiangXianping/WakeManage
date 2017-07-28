@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ssm-dao" />
+        <module name="ssm-master" />
         <module name="ssm-model" />
         <module name="ssm-service" />
         <module name="ssm-util" />
