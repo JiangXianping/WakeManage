@@ -23,6 +23,11 @@ public class UserServiceImpl implements UserService {
 	}
 
     @Override
+    public int insertUser(User user) {
+        return userMapper.insert(user);
+    }
+
+    @Override
     public Set<String> getRoles(String name) {
         return userMapper.getRole(name);
     }
@@ -31,6 +36,8 @@ public class UserServiceImpl implements UserService {
     public Set<String> getPermissions(String name) {
         return userMapper.getPermissions(name);
     }
+
+
 
 
 }

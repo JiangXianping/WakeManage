@@ -10,6 +10,9 @@ public interface UserService {
 	//根据用户名查找用户是否存在
 	public User findByName(String username);
 
+	//注册用户
+    public int insertUser(User user);
+
     //获取用户角色
     Set<String> getRoles(String name);
 

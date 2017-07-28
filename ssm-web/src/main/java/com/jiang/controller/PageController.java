@@ -23,10 +23,16 @@ public class PageController {
         return "login.jsp";
     }
 
-    //跳转到登录页面
+    //跳转到列表页面
     @RequestMapping("/bookList")
     public String bookList() {
         return "bookList.jsp";
     }
+    //跳转到注册页面
+    @RequestMapping("/register")
+    public String register(){
+        return "register.jsp";
+    }
+
 
 }

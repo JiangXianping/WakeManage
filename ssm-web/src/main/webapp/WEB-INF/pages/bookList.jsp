@@ -178,6 +178,7 @@
                         <shiro:hasRole name="superadmin">超级管理员</shiro:hasRole>
                         <shiro:hasRole name="admin">管理员</shiro:hasRole>
                         <shiro:hasRole name="guest">游客</shiro:hasRole>
+                        <shiro:hasRole name="register">注册用户</shiro:hasRole>
                         <a href="<%=basePath%>user/logout">退出</a></shiro:authenticated>
                     <shiro:hasRole name="superadmin"><button class="btn btn-danger" id="delete_all_book">删除</button></shiro:hasRole>
                 </td>
@@ -223,7 +224,7 @@
 <div class="col-md-3">
     <shiro:hasRole name="superadmin">
         <%--<a href="<%=basePath%>page/addBook">--%>
-        <button type="button" class="btn btn-info btn-s" data-toggle="modal" data-target="#myModal"
+        <button type="button" class="btn btn-info btn-s"
                 id="book_add_modal_btn">
             添加图书
         </button>
