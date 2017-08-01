@@ -26,18 +26,18 @@ public class UserRealm extends AuthorizingRealm {
     @Autowired
     private UserService userService;
 
-    /*
-     * 验证当前登录的用户
-     *
-     */
+
     @Override
     public String getName() {
         return getClass().getName();
     }
 
+    /*
+     * 验证当前登录的用户
+     *
+     */
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
-        System.out.println("进入验证doGetAuthenticationInfo：");
         String username = (String) token.getPrincipal();
         User user = userService.findByName(username);
         if (user != null) {
@@ -55,13 +55,9 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         String username = (String) principals.getPrimaryPrincipal();
-
-        logger.info("进入授权" + username);
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
         authorizationInfo.setRoles(userService.getRoles(username));
-
         authorizationInfo.setStringPermissions(userService.getPermissions(username));
-
         return authorizationInfo;
     }
 }

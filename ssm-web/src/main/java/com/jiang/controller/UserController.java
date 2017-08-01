@@ -138,4 +138,19 @@ public class UserController {
 
     }
 
+    @RequestMapping("/ajaxRegister")
+    @ResponseBody
+    public int ajaxRegister(User user){
+        int status=0;
+        user.setPassword(EncryptionUtil.Md5Str(user.getPassword()));
+        int num = userService.insertUser(user);
+        if(num==1){
+            status = 1;
+        }else{
+            status = -1;
+        }
+        return status;
+
+    }
+
 }

@@ -40,7 +40,7 @@
 
         <p>登录进去。在行动中看到它。</p>
         <div class="row" style="text-align: center"><font color="red" size="1px">${requestScope.msg }</font></div>
-        <form class="m-t" role="form" id="user_login_from" action="<%=basePath%>user/login">
+        <form class="m-t" role="form" id="user_login_from">
             <div class="form-group">
                 <input name="username" id="username" class="form-control" placeholder="用户名" required="">
             </div>
@@ -54,7 +54,7 @@
                 <%--<p id="wait2" class="show">正在加载验证码......</p>--%>
             </div>
             <div style="height: 20px; width: 100%;">
-            <p id="notice" style="display: none; font-size: 12px;color: red; ">请先通过验证</p>
+                <p id="notice" style="display: none; font-size: 12px;color: red; ">请先通过验证</p>
             </div>
             <button type="submit" id="submit" class="btn btn-primary block full-width m-b">登录</button>
 
@@ -105,11 +105,11 @@
                                 type: "POST",
                                 data: $('#user_login_from').serialize(),        //将整个表单序列化提交到controller
                                 success: function (result) {
-                                    if(result==1){
-                                        window.location="<%=basePath%>page/bookList";
-                                    }else{
+                                    if (result == 1) {
+                                        window.location = "<%=basePath%>page/bookList";
+                                    } else {
                                         alert("检查用户名或密码");
-                                        window.location="<%=basePath%>page/login";
+                                        window.location = "<%=basePath%>page/login";
                                     }
                                 }
                             });
