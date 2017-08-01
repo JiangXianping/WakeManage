@@ -37,7 +37,6 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "/login", method = {RequestMethod.GET, RequestMethod.POST})
-
     public ModelAndView login(User user, HttpServletRequest request, boolean rememberme) {
         //使用MD5加密解析
         user.setPassword(EncryptionUtil.Md5Str(user.getPassword()));
@@ -62,6 +61,34 @@ public class UserController {
             m.setViewName("redirect:/page/login");
         }
         return m;
+    }
+
+    @RequestMapping(value = "/ajaxLogin", method = {RequestMethod.GET, RequestMethod.POST})
+    @ResponseBody
+    public int ajaxLogin(User user, HttpServletRequest request, boolean rememberme) {
+        int status=0;
+        //使用MD5加密解析
+        user.setPassword(EncryptionUtil.Md5Str(user.getPassword()));
+        logger.info("进入controller:" + user.getUsername() + "\t" + user.getPassword());
+//        user.setPassword(EncryptionUtil.Md5Str(user.getPassword()));
+        Subject subject = SecurityUtils.getSubject();
+        logger.info("是否选中记住我:" + rememberme);
+        //subject
+        UsernamePasswordToken token = new UsernamePasswordToken(user.getUsername(), user.getPassword());
+        //设置remember是否开启
+        token.setRememberMe(rememberme);
+        try {
+            subject.login(token);
+            HttpSession session = request.getSession();
+            logger.info("用户对象:" + userService.findByName(user.getUsername()));
+            session.setAttribute("currUser", userService.findByName(user.getUsername()));
+            session.setMaxInactiveInterval(30 * 60 * 1000);
+            status=1;
+        } catch (Exception e) {
+            e.printStackTrace();
+            status=-1;
+        }
+        return status;
     }
 
     /**
@@ -110,4 +137,5 @@ public class UserController {
         return mv;
 
     }
+
 }
