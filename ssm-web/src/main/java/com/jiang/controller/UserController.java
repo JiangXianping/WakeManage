@@ -69,7 +69,7 @@ public class UserController {
         int status=0;
         //使用MD5加密解析
         user.setPassword(EncryptionUtil.Md5Str(user.getPassword()));
-        logger.info("进入controller:" + user.getUsername() + "\t" + user.getPassword());
+//        logger.info("进入controller:" + user.getUsername() + "\t" + user.getPassword());
 //        user.setPassword(EncryptionUtil.Md5Str(user.getPassword()));
         Subject subject = SecurityUtils.getSubject();
         logger.info("是否选中记住我:" + rememberme);
@@ -82,7 +82,7 @@ public class UserController {
             HttpSession session = request.getSession();
             logger.info("用户对象:" + userService.findByName(user.getUsername()));
             session.setAttribute("currUser", userService.findByName(user.getUsername()));
-            session.setMaxInactiveInterval(30 * 60 * 1000);
+            session.setMaxInactiveInterval(1 * 60 * 1000);
             status=1;
         } catch (Exception e) {
             e.printStackTrace();

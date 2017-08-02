@@ -11,7 +11,7 @@ pageEncoding="UTF-8" %>
 <html>
 
 <head>
-    <base href="<%=basePath%>webapp/resource/">
+    <base href="<%=basePath%>resource/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,7 @@ pageEncoding="UTF-8" %>
     <link rel="stylesheet" href="<%=basePath%>resource/Font-Awesome/css/jquery.gritter.css">
     <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/animate.css">
     <link rel="stylesheet" href="<%=basePath%>resource/bootstrap/css/style.css">
-
+    <script type="text/javascript" src="<%=basePath%>resource/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -63,7 +63,7 @@ pageEncoding="UTF-8" %>
                     <li class="active">
                         <a href=""><i class="fa fa-th-large"></i> <span class="nav-label">图书管理</span> <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li class="active"><a href="">图书列表</a></li>
+                            <li><a href="">图书列表</a></li>
                             <li><a href="">新增图书</a></li>
                             <li><a href="">预约图书</a></li>
                         </ul>
@@ -78,6 +78,9 @@ pageEncoding="UTF-8" %>
         <div class="row border-bottom">
         <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
         <div class="navbar-header">
+            <a href="#" class="sidebar-toggle" data-toggle="offcanvas"
+               role="button"> <span class="sr-only">切换导航</span>
+            </a>
             <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
             <form role="search" class="navbar-form-custom" action="search_results.html">
                 <div class="form-group">

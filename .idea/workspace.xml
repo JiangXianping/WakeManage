@@ -1,13 +1,662 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99a06188-86ed-4585-824a-13e23131fd80" name="Default" comment="">
+    <list default="true" id="99a06188-86ed-4585-824a-13e23131fd80" name="Default" comment="修改前端框架，初步完成整合列表页面">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/._css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/._font-awesome" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/._fonts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/._img" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/._js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/._patterns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/._3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/._4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/._header-profile-skin-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/._header-profile-skin-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/._header-profile-skin-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/._header-profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/._shattered.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/header-profile-skin-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/header-profile-skin-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/header-profile-skin-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/header-profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/patterns/shattered.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/._css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/._fonts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/._fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/._fontawesome-webfont.eot_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/._fontawesome-webfont.svg_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/._fontawesome-webfont.ttf_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/._fontawesome-webfont.woff2_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/._fontawesome-webfont.woff_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/fontawesome-webfont.eot_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/fontawesome-webfont.ttf_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/fontawesome-webfont.woff2_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/fontawesome-webfont.woff_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/._glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/._glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/._glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/._glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/img/._landing" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/img/landing/._avatar_all.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/img/landing/._header_one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/img/landing/._header_two.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/img/landing/._word_map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/img/landing/avatar_all.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/img/landing/header_one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/img/landing/header_two.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/img/landing/word_map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._angular" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._angular-translate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._bootstrap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._jquery" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._plugins" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._ui-router" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/._angular-idle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/._jquery-ui" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/._metisMenu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/._oclazyload" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/._pace" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/._slimscroll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/oclazyload/._dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/._patterns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/._plugins" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/._3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/._4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/._header-profile-skin-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/._header-profile-skin-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/._header-profile-skin-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/._header-profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/._shattered.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/header-profile-skin-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/header-profile-skin-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/header-profile-skin-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/header-profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/patterns/shattered.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._awesome-bootstrap-checkbox" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._blueimp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._bootstrap-markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._bootstrapTour" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._c3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._chartist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._chosen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._clockpicker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._codemirror" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._colorpicker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._cropper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._dataTables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._datapicker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._daterangepicker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._dropzone" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._footable" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._fullcalendar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._iCheck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._ionRangeSlider" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._jQueryUI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._jasny" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._jqGrid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._jsTree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._ladda" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._morris" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._nouslider" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._select2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._slick" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._steps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._summernote" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._sweetalert" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._switchery" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._toastr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/._touchspin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/._css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/._img" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/._error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/._loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/._play-pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/._video-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/play-pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/video-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/chosen/._chosen-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/chosen/._chosen-sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/chosen/chosen-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/chosen/chosen-sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/._fonts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/fonts/._footable.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/fonts/._footable.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/fonts/._footable.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/fonts/footable.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/fonts/footable.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/fonts/footable.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/iCheck/._green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/iCheck/._green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/iCheck/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/iCheck/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/._bootstrap-colorpicker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/._sprite-skin-flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/._spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/._spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/._alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/._alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/._hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/._hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/._saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/sprite-skin-flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/images/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/._images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/._ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/animated-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jsTree/._32px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jsTree/._40px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jsTree/._throbber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jsTree/32px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jsTree/40px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jsTree/throbber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/._ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/._fonts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/fonts/._slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/fonts/._slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/fonts/._slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/._img" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/img/._header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/img/header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/._css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/._fonts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/._fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/._fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/._fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/._fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/._glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/._glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/._glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/._glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/img/a1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/img/a2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/img/a3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/img/a4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/img/a7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/img/a8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/img/profile_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/._demo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/._plugins" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._blueimp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._bootstrap-markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._bootstrapTour" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._c3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._chartJs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._chartist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._chosen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._clipboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._clockpicker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._codemirror" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._colorpicker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._cropper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._d3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._dataTables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._datapicker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._daterangepicker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._diff_match_patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._dotdotdot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._dropzone" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._easypiechart" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._flot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._footable" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._fullcalendar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._gritter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._i18next" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._iCheck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._idle-timer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._ionRangeSlider" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._jasny" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._jeditable" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._jqGrid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._jquery-ui" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._jsKnob" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._jsTree" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._jvectormap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._ladda" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._masonary" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._metisMenu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._morris" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._nestable" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._nouslider" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._pace" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._peity" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._preetyTextDiff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._rickshaw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._select2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._slick" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._slimscroll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._sparkline" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._staps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._summernote" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._sweetalert" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._switchery" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._tinycon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._toastr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._touchspin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._validate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._video" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/._wow" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/codemirror/._mode" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/codemirror/mode/._javascript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/diff_match_patch/._javascript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/._images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/images/._gritter-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/images/._gritter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/images/._ie-spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/images/gritter-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/images/gritter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/images/ie-spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jqGrid/._i18n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/rickshaw/._vendor" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/img/a1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/img/a2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/img/a3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/img/a4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/img/a7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/img/a8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/img/profile_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/._index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/._animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/._bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/._style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/css/._font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/font-awesome/fonts/fontawesome-webfont.svg_v=4.3.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/._glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._directives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._inspinia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/._translations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/angular-translate/._angular-translate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/angular-translate/angular-translate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/angular/._angular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/angular/._angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/angular/angular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/bootstrap/._bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/bootstrap/._ui-bootstrap-tpls-0.12.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/bootstrap/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/bootstrap/ui-bootstrap-tpls-0.12.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/directives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/inspinia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/jquery/._jquery-2.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/jquery/jquery-2.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/angular-idle/._angular-idle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/angular-idle/angular-idle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/jquery-ui/._jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/jquery-ui/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/metisMenu/._jquery.metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/metisMenu/jquery.metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/oclazyload/dist/._ocLazyLoad.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/oclazyload/dist/ocLazyLoad.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/pace/._pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/pace/pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/slimscroll/._jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/plugins/slimscroll/jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/translations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/ui-router/._angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/ui-router/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/._animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/._bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/._style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/awesome-bootstrap-checkbox/._awesome-bootstrap-checkbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/css/._blueimp-gallery.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/css/blueimp-gallery.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/._error.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/._play-pause.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/._video-play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/error.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/play-pause.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/blueimp/img/video-play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/bootstrap-markdown/._bootstrap-markdown.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/bootstrap-markdown/bootstrap-markdown.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/bootstrapTour/._bootstrap-tour.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/bootstrapTour/bootstrap-tour.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/c3/._c3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/c3/c3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/chartist/._chartist.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/chartist/chartist.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/chosen/._chosen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/chosen/chosen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/clockpicker/._clockpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/clockpicker/clockpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/codemirror/._ambiance.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/codemirror/._codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/codemirror/ambiance.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/colorpicker/._bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/colorpicker/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/cropper/._cropper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/cropper/cropper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/dataTables/._datatables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/dataTables/datatables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/datapicker/._datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/datapicker/datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/daterangepicker/._daterangepicker-bs3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/daterangepicker/daterangepicker-bs3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/dropzone/._basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/dropzone/._dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/dropzone/basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/dropzone/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/._footable.core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/fonts/._footable.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/fonts/footable.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/footable/footable.core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/fullcalendar/._fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/fullcalendar/._fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/fullcalendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/fullcalendar/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/iCheck/._custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/iCheck/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/ionRangeSlider/._ion.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/ionRangeSlider/._ion.rangeSlider.skinFlat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/ionRangeSlider/ion.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/._jquery-ui-1.10.4.custom.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/._jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jQueryUI/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jasny/._jasny-bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jasny/jasny-bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jqGrid/._ui.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jqGrid/ui.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jsTree/._style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/jsTree/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/ladda/._ladda-themeless.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/ladda/ladda-themeless.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/morris/._morris-0.4.3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/morris/morris-0.4.3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/nouslider/._jquery.nouislider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/nouslider/jquery.nouislider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/select2/._select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/select2/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/._slick-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/._slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/fonts/._slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/slick-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/slick/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/steps/._jquery.steps.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/steps/jquery.steps.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/summernote/._summernote-bs3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/summernote/._summernote.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/summernote/summernote-bs3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/summernote/summernote.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/sweetalert/._sweetalert.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/sweetalert/sweetalert.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/switchery/._switchery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/switchery/switchery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/toastr/._toastr.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/toastr/toastr.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/touchspin/._jquery.bootstrap-touchspin.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/plugins/touchspin/jquery.bootstrap-touchspin.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/._action.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/._alert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/._billing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/._styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/action.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/alert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/billing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/email_templates/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/css/._font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/css/._font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/._fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/._glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/._bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/._bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/._inspinia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/._jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/._jquery-ui-1.10.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/._jquery-ui.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/._chartjs-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/._flot-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/._morris-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/._peity-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/._rickshaw-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/._sparkline-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/chartjs-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/flot-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/morris-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/peity-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/rickshaw-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/demo/sparkline-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/inspinia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/jquery-ui-1.10.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/jquery-ui.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/blueimp/._jquery.blueimp-gallery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/blueimp/jquery.blueimp-gallery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/bootstrap-markdown/._bootstrap-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/bootstrap-markdown/._markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/bootstrap-markdown/bootstrap-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/bootstrap-markdown/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/bootstrapTour/._bootstrap-tour.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/bootstrapTour/bootstrap-tour.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/c3/._c3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/c3/c3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/chartJs/._Chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/chartJs/Chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/chartist/._chartist.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/chartist/chartist.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/chosen/._chosen.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/chosen/chosen.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/clipboard/._clipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/clipboard/clipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/clockpicker/._clockpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/clockpicker/clockpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/codemirror/._codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/codemirror/mode/javascript/._javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/codemirror/mode/javascript/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/colorpicker/._bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/colorpicker/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/cropper/._cropper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/cropper/cropper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/d3/._d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/d3/d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/dataTables/._datatables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/dataTables/datatables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/datapicker/._bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/datapicker/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/daterangepicker/._daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/daterangepicker/daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/diff_match_patch/javascript/._diff_match_patch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/diff_match_patch/javascript/diff_match_patch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/dotdotdot/._jquery.dotdotdot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/dotdotdot/jquery.dotdotdot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/dropzone/._dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/dropzone/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/easypiechart/._jquery.easypiechart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/easypiechart/jquery.easypiechart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/._curvedLines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/._jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/._jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/._jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/._jquery.flot.spline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/._jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/._jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/._jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/curvedLines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/jquery.flot.spline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/flot/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/footable/._footable.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/footable/footable.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/fullcalendar/._fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/fullcalendar/._moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/fullcalendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/fullcalendar/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/._jquery.gritter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/._jquery.gritter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/jquery.gritter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/gritter/jquery.gritter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/i18next/._i18next.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/i18next/i18next.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/iCheck/._icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/iCheck/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/idle-timer/._idle-timer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/idle-timer/idle-timer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/ionRangeSlider/._ion.rangeSlider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jasny/._jasny-bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jasny/jasny-bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jeditable/._jquery.jeditable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jeditable/jquery.jeditable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jqGrid/._jquery.jqGrid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jqGrid/i18n/._grid.locale-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jqGrid/i18n/grid.locale-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jqGrid/jquery.jqGrid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jquery-ui/._jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jquery-ui/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jsKnob/._jquery.knob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jsKnob/jquery.knob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jsTree/._jstree.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jsTree/jstree.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jvectormap/._jquery-jvectormap-2.0.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jvectormap/._jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/ladda/._ladda.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/ladda/._ladda.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/ladda/._spin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/ladda/ladda.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/ladda/ladda.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/ladda/spin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/masonary/._masonry.pkgd.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/masonary/masonry.pkgd.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/metisMenu/._jquery.metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/metisMenu/jquery.metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/morris/._morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/morris/._raphael-2.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/morris/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/morris/raphael-2.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/nestable/._jquery.nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/nestable/jquery.nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/nouslider/._jquery.nouislider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/nouslider/jquery.nouislider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/pace/._pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/pace/pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/peity/._jquery.peity.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/peity/jquery.peity.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/preetyTextDiff/._jquery.pretty-text-diff.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/rickshaw/._rickshaw.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/rickshaw/rickshaw.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/rickshaw/vendor/._d3.v3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/rickshaw/vendor/d3.v3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/select2/._select2.full.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/select2/select2.full.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/slick/._slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/slick/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/slimscroll/._jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/slimscroll/jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/sparkline/._jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/sparkline/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/staps/._jquery.steps.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/staps/jquery.steps.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/summernote/._summernote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/summernote/summernote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/sweetalert/._sweetalert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/sweetalert/sweetalert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/switchery/._switchery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/switchery/switchery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/tinycon/._tinycon.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/tinycon/tinycon.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/toastr/._toastr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/toastr/toastr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/touchspin/._jquery.bootstrap-touchspin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/touchspin/jquery.bootstrap-touchspin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/validate/._jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/validate/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/video/._responsible-video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/video/responsible-video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/wow/._wow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/plugins/wow/wow.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/target/classes/com/jiang/controller/UserController.class" afterPath="$PROJECT_DIR$/ssm-web/target/classes/com/jiang/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/UserController.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/shiro/UserRealm.java" afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/shiro/UserRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/register.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/ssm-web/target/" />
     <ignored path="$PROJECT_DIR$/ssm-dao/target/" />
@@ -39,53 +688,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VerifyLoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/VerifyLoginController.java">
+      <file leaf-file-name="bookList.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="65" column="16" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+            <state relative-caret-position="367">
+              <caret line="249" column="75" lean-forward="false" selection-start-line="249" selection-start-column="75" selection-end-line="249" selection-end-column="75" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#18818#18908#0#JSP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/register.jsp">
+      <file leaf-file-name="profile_small.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/img/profile_small.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartCaptchaController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/StartCaptchaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="127" column="60" lean-forward="true" selection-start-line="127" selection-start-column="60" selection-end-line="127" selection-end-column="60" />
+            <state relative-caret-position="400">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp">
+      <file leaf-file-name="bookList1.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList1.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="103" column="64" lean-forward="false" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+            <state relative-caret-position="11040">
+              <caret line="552" column="46" lean-forward="false" selection-start-line="552" selection-start-column="46" selection-end-line="552" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/UserController.java">
+      <file leaf-file-name="bookList2.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2480">
-              <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="14" />
+            <state relative-caret-position="3340">
+              <caret line="167" column="6" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="167" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRealm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/shiro/UserRealm.java">
+      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/PageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+            <state relative-caret-position="580">
+              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -184,28 +840,29 @@
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/11111.jsp" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/error.jsp" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/resources/project.properties" />
         <option value="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/UserService.java" />
         <option value="$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/index.html" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/plugins/js/toastr.min.js" />
-        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-util/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-web/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/GeetestConfig.java" />
-        <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/PageController.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/StartCaptchaController.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/VerifyLoginController.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/gtlogin.jsp" />
         <option value="$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/GeetestLib.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/shiro/UserRealm.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp" />
-        <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/register.jsp" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/index1.jsp" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp" />
       </list>
     </option>
   </component>
@@ -282,7 +939,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -297,8 +953,109 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jiang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WakeManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jiang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,19 +1071,19 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/ssm-web/src/main/webapp/resource/Font-Awesome/css" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WakeManage\ssm-web\src\main\webapp\resource\jquery" />
-      <recent name="D:\ssm-master\log" />
-      <recent name="D:\ssm-master\ssm-web\src\main\webapp\WEB-INF\pages" />
-      <recent name="D:\ssm-master\ssm-web\src\main\resources\properties" />
-      <recent name="D:\ssm-master\ssm-web\src\main\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WakeManage\ssm-web\src\main\webapp\resource\adminlte" />
+      <recent name="D:\WakeManage\ssm-web\src\main\webapp\resource\img" />
       <recent name="D:\WakeManage\ssm-web\src\main\webapp\WEB-INF\pages" />
       <recent name="D:\WakeManage\ssm-web\src\main\webapp\resource\plugins\js" />
       <recent name="D:\WakeManage\ssm-util\src\main\java\com\jiang\util" />
-      <recent name="D:\WakeManage\ssm-web\src\main\webapp\resource\Font-Awesome\font" />
-      <recent name="D:\WakeManage\ssm-web\src\main\webapp\resource" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WakeManage\ssm-web\src\main\webapp\WEB-INF\pages" />
+      <recent name="D:\WakeManage\ssm-web\src\main\webapp\WEB-INF\lib" />
+      <recent name="D:\WakeManage\ssm-web\src\main\webapp\resource\userjs" />
+      <recent name="D:\WakeManage\ssm-web\src\main\webapp\resource\jquery" />
+      <recent name="D:\ssm-master\log" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat 7.0">
@@ -887,7 +1644,16 @@
       <workItem from="1501481906406" duration="631000" />
       <workItem from="1501488264228" duration="9421000" />
       <workItem from="1501546746958" duration="13035000" />
-      <workItem from="1501566330800" duration="1209000" />
+      <workItem from="1501566330800" duration="1708000" />
+      <workItem from="1501573311850" duration="4352000" />
+      <workItem from="1501586043881" duration="1637000" />
+      <workItem from="1501633190850" duration="87000" />
+      <workItem from="1501645315976" duration="34000" />
+      <workItem from="1501655990446" duration="6539000" />
+      <workItem from="1501666650574" duration="18000" />
+      <workItem from="1501666728337" duration="3986000" />
+      <workItem from="1501672054814" duration="4049000" />
+      <workItem from="1501682116858" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Ajax请求,使用JQuery解析JSON数据，构建数据">
       <created>1501079770483</created>
@@ -959,11 +1725,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501557858002</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="注册页面集成极验验证，与Shiro整合">
+      <created>1501568033927</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1501568033927</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141449000" />
+    <option name="totallyTimeSpent" value="162691000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,39 +1754,39 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879582" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28795812" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27958116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1047,7 +1820,9 @@
     <MESSAGE value="批量删除功能尚未解决，增加权限验证，在没有登录的情况下，无法访问列表页面" />
     <MESSAGE value="增加注册页面，完成前端数据简单校验，密码进行MD5加密，登录使用MD5验证。" />
     <MESSAGE value="登录页面集成极验验证，使用Ajax完成登录操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录页面集成极验验证，使用Ajax完成登录操作" />
+    <MESSAGE value="注册页面集成极验验证，与Shiro整合" />
+    <MESSAGE value="修改前端框架，初步完成整合列表页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改前端框架，初步完成整合列表页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1060,48 +1835,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/userjs/bookList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-model/src/main/java/com/jiang/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm-service/src/main/java/com/jiang/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1113,9 +1846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="95" column="7" lean-forward="false" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1278,7 +2008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4560">
           <caret line="228" column="18" lean-forward="false" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1293,7 +2022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,35 +2032,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1062">
-          <caret line="10" column="71" lean-forward="true" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/plugins/js/gt.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="498" column="36" lean-forward="false" selection-start-line="498" selection-start-column="36" selection-end-line="498" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/StartCaptchaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1350,14 +2053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="242" column="88" lean-forward="false" selection-start-line="242" selection-start-column="88" selection-end-line="242" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm-util/src/main/java/com/jiang/util/GeetestConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1365,30 +2060,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="495" column="26" lean-forward="true" selection-start-line="495" selection-start-column="26" selection-end-line="495" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/gtlogin.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,9 +2071,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="65" column="16" lean-forward="false" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2060">
+          <caret line="103" column="64" lean-forward="false" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="143" column="46" lean-forward="false" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1406,31 +2092,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="41" column="48" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2480">
-          <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="14" />
+        <state relative-caret-position="1080">
+          <caret line="72" column="3" lean-forward="false" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/login.jsp">
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="103" column="64" lean-forward="false" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+        <state relative-caret-position="1060">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/adminlte/Angular/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/register.jsp">
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="127" column="60" lean-forward="true" selection-start-line="127" selection-start-column="60" selection-end-line="127" selection-end-column="60" />
+        <state relative-caret-position="580">
+          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3340">
+          <caret line="167" column="6" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="167" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/jiang/controller/StartCaptchaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11040">
+          <caret line="552" column="46" lean-forward="false" selection-start-line="552" selection-start-column="46" selection-end-line="552" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/resource/img/profile_small.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/pages/bookList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="249" column="75" lean-forward="false" selection-start-line="249" selection-start-column="75" selection-end-line="249" selection-end-column="75" />
+          <folding>
+            <element signature="e#18818#18908#0#JSP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
